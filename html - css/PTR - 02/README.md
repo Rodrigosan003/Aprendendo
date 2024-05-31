@@ -4,7 +4,7 @@
 Crie um arquivo HTML com um cabeçalho, um parágrafo e uma imagem. Estilize o cabeçalho e o parágrafo usando CSS. (Feito)
 
 2. Exercício 2 - Listas:
-Crie uma lista não ordenada e uma lista ordenada contendo alguns itens de sua escolha.
+Crie uma lista não ordenada e uma lista ordenada contendo alguns itens de sua escolha. (Feito)
 
 3. Exercício 3 - Links:
 Crie uma página com links para diferentes sites e páginas internas, estilizando os links com cores diferentes para os estados normal, hover e visitado.
