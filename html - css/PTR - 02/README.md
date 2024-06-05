@@ -7,7 +7,7 @@ Crie um arquivo HTML com um cabeçalho, um parágrafo e uma imagem. Estilize o c
 Crie uma lista não ordenada e uma lista ordenada contendo alguns itens de sua escolha. (Feito)
 
 3. Exercício 3 - Links:
-Crie uma página com links para diferentes sites e páginas internas, estilizando os links com cores diferentes para os estados normal, hover e visitado.
+Crie uma página com links para diferentes sites e páginas internas, estilizando os links com cores diferentes para os estados normal, hover e visitado. (Feito)
 
 4. Exercício 4 - Tabelas:
 Crie uma tabela simples que mostre informações sobre algum assunto de seu interesse.

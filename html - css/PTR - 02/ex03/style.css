@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 400px;
+    background-color: aliceblue;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+.container a {
+    font-size: 30px;
+    margin: 10px 10px 10px 10px;
+}
+
+/* Estilo padrão do link*/
+a:link {
+    color: blueviolet;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+/*Ao passar o mouse por cima*/
+a:hover {
+    text-decoration: underline;
+    color:aliceblue;
+    background-color: rgb(235, 168, 168);
+}
+
+/*Ativo enquanto não soltar o mouse*/
+a:active {
+    background-color: yellow ;
+}
