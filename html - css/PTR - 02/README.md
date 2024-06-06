@@ -10,7 +10,7 @@ Crie uma lista não ordenada e uma lista ordenada contendo alguns itens de sua e
 Crie uma página com links para diferentes sites e páginas internas, estilizando os links com cores diferentes para os estados normal, hover e visitado. (Feito)
 
 4. Exercício 4 - Tabelas:
-Crie uma tabela simples que mostre informações sobre algum assunto de seu interesse.
+Crie uma tabela simples que mostre informações sobre algum assunto de seu interesse. (Feito)
 
 5. Exercício 5 - Formulário de Contato:
 Crie um formulário de contato com campos para nome, e-mail, assunto e mensagem.
