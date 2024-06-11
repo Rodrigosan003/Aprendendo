@@ -13,7 +13,7 @@ Crie uma página com links para diferentes sites e páginas internas, estilizand
 Crie uma tabela simples que mostre informações sobre algum assunto de seu interesse. (Feito)
 
 5. Exercício 5 - Formulário de Contato:
-Crie um formulário de contato com campos para nome, e-mail, assunto e mensagem.
+Crie um formulário de contato com campos para nome, e-mail, assunto e mensagem. (Feito)
 
 6. Exercício 6 - Layout com Divs:
 Crie um layout simples usando divs, estilizando-os com CSS para criar uma estrutura de cabeçalho, corpo e rodapé.
