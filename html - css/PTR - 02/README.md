@@ -16,7 +16,7 @@ Crie uma tabela simples que mostre informações sobre algum assunto de seu inte
 Crie um formulário de contato com campos para nome, e-mail, assunto e mensagem. (Feito)
 
 6. Exercício 6 - Layout com Divs:
-Crie um layout simples usando divs, estilizando-os com CSS para criar uma estrutura de cabeçalho, corpo e rodapé.
+Crie um layout simples usando divs, estilizando-os com CSS para criar uma estrutura de cabeçalho, corpo e rodapé. (Feito)
 
 7. Exercício 7 - Estilização de Botões:
 Crie botões com diferentes estilos e efeitos de hover usando CSS.
