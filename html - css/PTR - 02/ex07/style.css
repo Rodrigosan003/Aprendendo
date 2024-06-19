@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+button {
+    border: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.enviar {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background-color: rgb(48, 48, 48);
+}
+
+.menu {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.menu:hover {
+    background-color: rgb(104, 104, 250);
+}
+
+.clicar {
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+
+.clicar:hover {
+    background-color: rgb(205, 164, 243);
+}

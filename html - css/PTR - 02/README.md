@@ -19,7 +19,7 @@ Crie um formulário de contato com campos para nome, e-mail, assunto e mensagem.
 Crie um layout simples usando divs, estilizando-os com CSS para criar uma estrutura de cabeçalho, corpo e rodapé. (Feito)
 
 7. Exercício 7 - Estilização de Botões:
-Crie botões com diferentes estilos e efeitos de hover usando CSS.
+Crie botões com diferentes estilos e efeitos de hover usando CSS. (Feito)
 
 8. Exercício 8 - Imagens Responsivas:
 Crie uma página com imagens responsivas, que se ajustam ao tamanho da tela em dispositivos móveis.
