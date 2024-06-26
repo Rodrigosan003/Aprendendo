@@ -22,7 +22,7 @@ Crie um layout simples usando divs, estilizando-os com CSS para criar uma estrut
 Crie botões com diferentes estilos e efeitos de hover usando CSS. (Feito)
 
 8. Exercício 8 - Imagens Responsivas:
-Crie uma página com imagens responsivas, que se ajustam ao tamanho da tela em dispositivos móveis.
+Crie uma página com imagens responsivas, que se ajustam ao tamanho da tela em dispositivos móveis. (Feito)
 
 9. Exercício 9 - Menu de Navegação:
 Crie um menu de navegação horizontal ou vertical com links para diferentes seções da página.
