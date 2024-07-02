@@ -25,7 +25,7 @@ Crie botões com diferentes estilos e efeitos de hover usando CSS. (Feito)
 Crie uma página com imagens responsivas, que se ajustam ao tamanho da tela em dispositivos móveis. (Feito)
 
 9. Exercício 9 - Menu de Navegação:
-Crie um menu de navegação horizontal ou vertical com links para diferentes seções da página.
+Crie um menu de navegação horizontal ou vertical com links para diferentes seções da página. (Feito)
 
 10. Exercício 10 - Página de Portfólio:
 Crie uma página de portfólio pessoal com algumas informações sobre você e seus projetos, usando uma combinação de HTML e CSS para criar um design atraente.
