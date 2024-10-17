@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    background-color: rgb(63, 63, 247);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+section {
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 500px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+}
+
+div.cima {
+    margin-top: 20px;
+}
+
+div.baixo {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+select#flista {
+    width: 150px;
+    margin: 15px 15px;
+}
+
+footer {
+    color: aliceblue;
+    font-style: italic;
+    margin-bottom: 40px;
+}
