@@ -1,5 +1,5 @@
-# Quiz
+# Blog Post
 
 ## 1 - Desafio da RocketSeat
 
-Quarta atividade.
+Quinta atividade.
