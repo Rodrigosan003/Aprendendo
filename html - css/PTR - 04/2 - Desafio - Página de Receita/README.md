@@ -1,5 +1,3 @@
-# Blog Post
+# Página de Receitas
 
-## 1 - Desafio da RocketSeat
-
-Quinta atividade.
+## 2 - Desafio da RocketSeat
