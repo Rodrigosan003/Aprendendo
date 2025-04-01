@@ -4,3 +4,27 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+:root {
+  --body-bg-color: #faf7fd;
+  --purple: #bb99dd;
+}
+
+body {
+  background-color: var(--purple);
+  text-align: center;
+  padding: 50px;
+  height: 100vh;
+  width: 100vw;
+}
+
+.content {
+  background: var(--body-bg-color);
+  height: 100%;
+  max-width: 50%;
+  margin: 0 auto;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
