@@ -15,6 +15,12 @@ body {
   padding: 50px;
 }
 
+h1 {
+  font-weight: 600;
+  margin: 20px;
+  color: var(--purple);
+}
+
 .content {
   text-align: center;
   background: var(--body-bg-color);
@@ -32,6 +38,11 @@ body {
   border: 5px solid var(--purple);
 }
 
+p {
+  color: var(--purple);
+  font-weight: 600;
+}
+
 .links {
   display: flex;
   align-items: center;
@@ -42,9 +53,21 @@ body {
 }
 
 .links a {
+  font-weight: 300;
   text-decoration: none;
   color: var(--purple);
   padding: 5px 100px;
   border-radius: 15px;
   border: 2px solid var(--purple);
+  transition: 0.5s;
+}
+
+.links a:hover {
+  transform: scale(1.1);
+  background: var(--purple);
+  color: var(--body-bg-color);
+}
+
+.social a {
+  margin: 0 10px;
 }
