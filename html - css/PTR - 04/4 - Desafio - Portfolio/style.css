@@ -15,8 +15,3 @@
 body {
   background-color: var(--body-bg-color);
 }
-
-h1 {
-  text-align: center;
-  color: white;
-}
