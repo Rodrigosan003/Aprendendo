@@ -1,70 +1,72 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .container {
-    height: 100vh;
-    background-color: rgb(63, 63, 247);
-    display: flex;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    justify-content: space-between;
+  height: 100vh;
+  background-color: rgb(63, 63, 247);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 h1 {
-    color: aliceblue;
-    font-size: 50px;
-    margin-top: 40px;
-    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+  color: aliceblue;
+  font-size: 50px;
+  margin-top: 40px;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
 }
 
 section {
-    background-color: aliceblue;
-    border-radius: 10px;
-    width: 500px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+  background-color: aliceblue;
+  border-radius: 10px;
+  width: 500px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
 }
 
 p {
-    margin: 20px;
-    font-size: 20px;
+  margin: 20px;
+  font-size: 20px;
 }
 
 input {
-    margin-left: 5px;
-    border: none;
-    border-radius: 10px;
-    background-color: rgb(142, 246, 250);
-    padding: 10px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(142, 246, 250);
+  padding: 10px;
 }
 
 button {
-    padding: 10px 20px;
-    font-size: 15px;
-    color: rgb(64, 65, 66);
-    border: none;
-    background-color: rgb(142, 246, 250);
-    border-radius: 8px;
-    margin-bottom: 20px;
-    cursor: pointer;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  border: none;
+  background-color: rgb(142, 246, 250);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
 
 button:hover {
-    background-color:rgba(59, 235, 241, 0.336);
+  background-color: rgba(59, 235, 241, 0.336);
 }
 
 #res {
-    font-size: 20px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 footer {
-    color: aliceblue;
-    font-style: italic;
-    margin-bottom: 40px;
+  color: aliceblue;
+  font-style: italic;
+  margin-bottom: 40px;
 }
