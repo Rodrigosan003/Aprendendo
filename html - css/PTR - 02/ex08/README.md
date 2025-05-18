@@ -2,3 +2,5 @@
 
 Exercício 8 - Imagens Responsivas: Crie uma página com imagens responsivas, que se ajustam ao tamanho da tela em dispositivos móveis.
 (Feito)
+
+![imagens](./img/imagens.png)
