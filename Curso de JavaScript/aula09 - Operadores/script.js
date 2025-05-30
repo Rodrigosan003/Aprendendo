@@ -2,14 +2,17 @@
 // +, -, *, /, **
 // ++, -- são operadores de incremento e decremento.
 
-let salario = 100;
+// let salario = 100;
 
-console.log(salario + salario);
-console.log(salario - salario);
-console.log(salario * salario);
-console.log(salario / salario);
-console.log(salario ** 2);
+// console.log(salario + salario);
+// console.log(salario - salario);
+// console.log(salario * salario);
+// console.log(salario / salario);
+// console.log(salario ** 2);
+
 // Operadores de Atribuição.
+let valorTecladoGamer = 100;
+console.log(valorTecladoGamer);
 // Operadores de Comparação.
 // Operadores Lógicos.
 // Operadores Bitwise.
