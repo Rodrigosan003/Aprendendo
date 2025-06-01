@@ -16,10 +16,18 @@
 
 // 3 - Operadores de Comparação. (igualdade)
 // Igualdade estrita:
-console.log(1 === 1);
-console.log("1" === 1);
+// console.log(1 === 1);
+// console.log("1" === 1);
 // Igualdade solta:
-console.log(1 == 1);
-console.log("1" == 1);
-// 4 - Operadores Lógicos.
-// 5 - Operadores Bitwise.
+// console.log(1 == 1);
+// console.log("1" == 1);
+
+// 4 - Operadores Ternário.
+// if e else são operadores lógicos.
+// Operadores ternários são a forma mais clean de escrever essa estrutura lógica.
+let pontos = 200;
+let tipo = pontos > 100 ? "premium" : "comum";
+console.log(tipo);
+
+// 5 - Operadores Lógicos.
+// 6 - Operadores Bitwise.
