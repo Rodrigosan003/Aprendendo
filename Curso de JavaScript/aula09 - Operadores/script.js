@@ -34,5 +34,6 @@
 // AND = && - Ele retorna True se os dois operando forem true
 // OR = || - Retorna true se um dos dois operandos forem true
 // NOT = ! - Ele faz uma negação.
-
+// Comparações não boleanos
+// Falsy: undefined, null, 0, false, '', NaN
 // 6 - Operadores Bitwise.
