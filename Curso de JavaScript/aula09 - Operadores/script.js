@@ -40,15 +40,31 @@
 // Se a hora estiver entre 06:00 até 12:00, bom dia!
 // Se estiver entre 12:00 até 18:00, boa tarde!
 // Caso contrário, boa noite.
-let hora = 18;
+// let hora = 18;
 
-if (hora >= 6 && hora < 12) {
-  console.log("Bom dia!");
-} else if (hora >= 12 && hora < 18) {
-  console.log("Boa tarde!");
-} else {
-  console.log("Boa noite!");
-}
+// if (hora >= 6 && hora < 12) {
+//   console.log("Bom dia!");
+// } else if (hora >= 12 && hora < 18) {
+//   console.log("Boa tarde!");
+// } else {
+//   console.log("Boa noite!");
+// }
 
 // Switch... case...
+let permissao = "aluno";
+
+switch (permissao) {
+  case "comum":
+    console.log("usuário comum");
+    break;
+  case "gerente":
+    console.log("usuário gerente");
+    break;
+  case "diretor":
+    console.log("usuário diretor");
+    break;
+
+  default:
+    console.log("Usuário não reconhecido!");
+}
 // 6 - Operadores Bitwise.
