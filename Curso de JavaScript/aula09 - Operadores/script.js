@@ -74,12 +74,21 @@
 //   console.log("Estou aprendendo!", i);
 // }
 
-for (let i = 1; i <= 5; i++) {
+// for (let i = 1; i <= 5; i++) {
+//   if (i % 2 !== 0) {
+//     console.log(i);
+//   }
+// }
+
+// 2. While
+let i = 10;
+
+while (i >= 1) {
   if (i % 2 !== 0) {
     console.log(i);
   }
+  i--;
 }
-// 2. While
 // 3. Do... while
 // 4. For... in
 // 5. For... of
