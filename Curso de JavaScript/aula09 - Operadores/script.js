@@ -81,15 +81,22 @@
 // }
 
 // 2. While
-let i = 10;
+// let i = 10;
 
-while (i >= 1) {
-  if (i % 2 !== 0) {
-    console.log(i);
-  }
-  i--;
-}
+// while (i >= 1) {
+//   if (i % 2 !== 0) {
+//     console.log(i);
+//   }
+//   i--;
+// }
+
 // 3. Do... while
+let i = 0;
+do {
+  console.log("digitando...", i);
+  i++;
+} while (i < 10);
+
 // 4. For... in
 // 5. For... of
 
