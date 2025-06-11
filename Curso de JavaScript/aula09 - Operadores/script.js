@@ -91,11 +91,11 @@
 // }
 
 // 3. Do... while
-let i = 0;
-do {
-  console.log("digitando...", i);
-  i++;
-} while (i < 10);
+// let i = 0;
+// do {
+//   console.log("digitando...", i);
+//   i++;
+// } while (i < 10);
 
 // 4. For... in
 // 5. For... of
