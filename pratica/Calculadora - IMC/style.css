@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background: #1e1f29;
+  --main-color: #45b8ed;
+  --text-color: #f3f3f3;
+}
+
+.main {
+  background-color: #f3f3f3;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  border-radius: 1rem;
+  padding: 3rem;
+  height: 70%;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  background: var(--background);
+}
+
+h1 {
+  color: var(--text-color);
+}
+
+.input {
+  margin: 1.5rem 0;
+  color: var(--text-color);
+}

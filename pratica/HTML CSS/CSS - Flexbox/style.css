@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid blue;
+    color: white;
+}
+
+.item1 {
+    background-color: aqua;
+}
+
+.item2 {
+    background-color: red;
+}
+
+.item3 {
+    background-color: black;
+}
+
+.item4 {
+    background-color: greenyellow;
+}
