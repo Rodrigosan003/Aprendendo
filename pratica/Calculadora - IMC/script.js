@@ -1,3 +1,3 @@
 function clicar() {
-  alert("Clicou!");
+  alert("Clicou aqui!");
 }
