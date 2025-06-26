@@ -79,7 +79,12 @@ input:focus {
 
 .result {
   height: 10rem;
+  width: 25rem;
   margin-top: 3rem;
   background: var(--text-color);
   border-radius: 1rem;
+  padding: 2rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: var(--background);
 }
