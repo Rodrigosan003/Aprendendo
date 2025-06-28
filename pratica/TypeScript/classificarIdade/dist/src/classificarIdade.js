@@ -1,3 +1,7 @@
+"use strict";
+// src/classificarIdade.ts
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.classificarIdade = classificarIdade;
 function classificarIdade(idade) {
     if (idade < 18) {
         return "Menor de idade!";
@@ -12,6 +16,3 @@ function classificarIdade(idade) {
         return "Você está vivo ainda?";
     }
 }
-// Exemplo de uso:
-var idade = 112;
-console.log(classificarIdade(idade));
