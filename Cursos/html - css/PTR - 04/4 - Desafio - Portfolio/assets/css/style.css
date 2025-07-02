@@ -15,3 +15,18 @@
 body {
   background-color: var(--body-bg-color);
 }
+
+.left {
+  width: 25%;
+  color: var(--text-color);
+}
+
+img {
+  color: aliceblue;
+}
+
+.box {
+  margin: 1.5rem;
+  padding: 1rem;
+  background: var(--bg-cards);
+}
