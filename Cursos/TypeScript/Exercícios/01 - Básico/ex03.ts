@@ -14,4 +14,11 @@ const usuario: Pessoa = {
   email: "email@contato.com",
 };
 
+const usuario2: Pessoa = {
+  nome: "Lucas",
+  idade: 20,
+  email: "email@contato.com",
+};
+
 console.log(usuario);
+console.log(usuario2);

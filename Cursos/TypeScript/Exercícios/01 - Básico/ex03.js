@@ -4,4 +4,10 @@ var usuario = {
     idade: 35,
     email: "email@contato.com",
 };
+var usuario2 = {
+    nome: "Lucas",
+    idade: 20,
+    email: "email@contato.com",
+};
 console.log(usuario);
+console.log(usuario2);
