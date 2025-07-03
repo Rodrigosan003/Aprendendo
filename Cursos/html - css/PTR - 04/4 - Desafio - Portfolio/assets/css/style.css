@@ -16,17 +16,27 @@ body {
   background-color: var(--body-bg-color);
 }
 
+.content {
+  display: flex;
+}
+
 .left {
   width: 25%;
   color: var(--text-color);
 }
 
-img {
-  color: aliceblue;
+.right {
+  width: 75%;
+  border: 2px solid red;
 }
 
 .box {
   margin: 1.5rem;
   padding: 1rem;
   background: var(--bg-cards);
+}
+
+.perfil {
+  height: 292px;
+  width: 348px;
 }
