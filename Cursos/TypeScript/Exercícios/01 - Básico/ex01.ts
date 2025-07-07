@@ -6,3 +6,5 @@ const nome: string = "Rodrigo";
 const idade: number = 35;
 const programador: boolean = true;
 const cafeCheio: null = null;
+
+console.log(nome);
