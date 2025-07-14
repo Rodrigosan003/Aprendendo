@@ -20,23 +20,40 @@ body {
   display: flex;
 }
 
+.box {
+  margin: 1.5rem;
+  padding: 1rem;
+  background: var(--bg-cards);
+  border-radius: 20px;
+}
+
 .left {
   width: 25%;
   color: var(--text-color);
 }
 
-.right {
-  width: 75%;
-  border: 2px solid red;
-}
-
-.box {
-  margin: 1.5rem;
-  padding: 1rem;
-  background: var(--bg-cards);
-}
-
 .perfil {
   height: 292px;
   width: 348px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.perfil img {
+  height: 128px;
+  width: 128px;
+  margin-top: 10px;
+  margin-bottom: 45px;
+}
+
+.perfil h1 {
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+
+.right {
+  display: none;
+  width: 75%;
+  border: 2px solid red;
 }
