@@ -21,7 +21,9 @@ body {
 }
 
 .box {
-  margin: 1.5rem;
+  /* margin: 1.5rem; */
+  margin-left: 40px;
+  margin-bottom: 30px;
   padding: 1rem;
   background: var(--bg-cards);
   border-radius: 20px;
@@ -30,6 +32,10 @@ body {
 .left {
   width: 25%;
   color: var(--text-color);
+}
+
+.perfil.box {
+  margin-top: 40px;
 }
 
 .perfil {
@@ -43,13 +49,22 @@ body {
 .perfil img {
   height: 128px;
   width: 128px;
-  margin-top: 10px;
-  margin-bottom: 45px;
+  margin-top: 32px;
+  margin-left: 110px;
+  margin-right: 110px;
+  margin-bottom: 30px;
 }
 
 .perfil h1 {
-  font-size: 26px;
-  margin-bottom: 5px;
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.perfil p {
+  font-size: 13px;
+  font-weight: lighter;
+  margin-bottom: 49px;
 }
 
 .right {
