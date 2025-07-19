@@ -1,0 +1,1 @@
+-- Exercício 4: Atualize o nome de um dos registros da tabela criada no exercício 1.

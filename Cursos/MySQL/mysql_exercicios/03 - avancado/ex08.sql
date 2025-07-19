@@ -1,0 +1,1 @@
+-- Exercício 8: Utilize técnicas de segurança avançada para proteger dados sensíveis na tabela criada no exercício 1.

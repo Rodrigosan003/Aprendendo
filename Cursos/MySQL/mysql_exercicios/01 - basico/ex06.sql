@@ -1,0 +1,1 @@
+-- Exercício 6: Selecione todos os registros onde o ID seja maior que 3 da tabela criada no exercício 1.

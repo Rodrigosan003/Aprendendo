@@ -1,0 +1,1 @@
+-- Exercício 10: Crie uma função que retorne a soma de todos os IDs da tabela criada no exercício 1.

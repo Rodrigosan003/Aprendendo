@@ -1,0 +1,1 @@
+-- Exercício 7: Crie um procedimento armazenado que faça a replicação assíncrona de dados entre duas instâncias MySQL.

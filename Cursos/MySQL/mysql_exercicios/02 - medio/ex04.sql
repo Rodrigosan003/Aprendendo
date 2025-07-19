@@ -1,0 +1,1 @@
+-- Exercício 4: Crie uma consulta que utilize uma subconsulta para retornar os IDs onde o Nome comece com 'A'.

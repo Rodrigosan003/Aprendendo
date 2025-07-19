@@ -1,0 +1,1 @@
+-- Exercício 6: Atualize todos os registros de uma tabela usando uma condição complexa.

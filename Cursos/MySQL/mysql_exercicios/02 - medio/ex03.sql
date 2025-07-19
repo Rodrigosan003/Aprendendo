@@ -1,0 +1,1 @@
+-- Exercício 3: Crie uma consulta que retorne os registros ordenados pelo Nome de forma descendente.

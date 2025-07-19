@@ -1,0 +1,1 @@
+-- Exercício 10: Crie uma consulta que utilize JSON functions para manipular dados estruturados na tabela criada no exercício 1.

@@ -1,0 +1,1 @@
+-- Exercício 5: Delete um registro da tabela criada no exercício 1.

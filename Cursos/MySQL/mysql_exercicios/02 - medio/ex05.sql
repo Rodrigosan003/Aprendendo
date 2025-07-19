@@ -1,0 +1,1 @@
+-- Exercício 5: Crie uma consulta que utilize joins para retornar registros de três tabelas relacionadas.

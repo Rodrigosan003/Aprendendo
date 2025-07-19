@@ -1,0 +1,1 @@
+-- Exercício 9: Implemente controle de versão de esquema para garantir que alterações na estrutura da tabela sejam rastreadas.

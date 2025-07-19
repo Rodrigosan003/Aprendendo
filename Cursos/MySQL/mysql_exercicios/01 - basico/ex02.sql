@@ -1,0 +1,1 @@
+-- Exercício 2: Insira 5 registros na tabela criada no exercício anterior.

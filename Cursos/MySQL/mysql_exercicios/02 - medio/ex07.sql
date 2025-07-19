@@ -1,0 +1,1 @@
+-- Exercício 7: Crie um índice na coluna ID da tabela criada no exercício 1.

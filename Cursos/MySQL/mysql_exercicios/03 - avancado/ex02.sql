@@ -1,0 +1,1 @@
+-- Exercício 2: Utilize procedimentos armazenados para automatizar a geração de dados em massa para a tabela criada no exercício 1.

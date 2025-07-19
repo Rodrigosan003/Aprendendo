@@ -1,0 +1,1 @@
+-- Exercício 1: Crie uma consulta recursiva que liste todos os registros de uma tabela hierárquica.

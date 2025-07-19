@@ -1,0 +1,1 @@
+-- Exercício 2: Crie uma consulta que retorne a média dos IDs da tabela criada no exercício 1.

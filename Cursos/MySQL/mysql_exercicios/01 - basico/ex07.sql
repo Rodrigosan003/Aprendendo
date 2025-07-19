@@ -1,0 +1,1 @@
+-- Exercício 7: Crie uma tabela nova que faça referência à tabela criada no exercício 1 usando uma chave estrangeira.

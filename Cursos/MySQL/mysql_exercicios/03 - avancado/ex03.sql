@@ -1,0 +1,1 @@
+-- Exercício 3: Utilize particionamento para otimizar consultas na tabela criada no exercício 1.

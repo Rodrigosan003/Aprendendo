@@ -1,0 +1,1 @@
+-- Exercício 8: Selecione todos os registros de ambas as tabelas usando um join simples.

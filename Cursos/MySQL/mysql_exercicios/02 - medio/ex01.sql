@@ -1,0 +1,1 @@
+-- Exercício 1: Crie uma consulta que retorne os registros únicos da coluna Nome da tabela criada no exercício 1.

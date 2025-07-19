@@ -1,0 +1,1 @@
+-- Exercício 8: Utilize transações para garantir a consistência de operações em duas tabelas ao mesmo tempo.

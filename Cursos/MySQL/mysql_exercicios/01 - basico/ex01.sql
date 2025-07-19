@@ -1,0 +1,1 @@
+-- Exercício 1: Crie uma tabela simples com duas colunas: ID (int) e Nome (varchar).

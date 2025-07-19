@@ -1,0 +1,1 @@
+-- Exercício 9: Crie um trigger que atualize uma terceira tabela sempre que ocorrer uma inserção na tabela criada no exercício 1.

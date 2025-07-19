@@ -1,0 +1,1 @@
+-- Exercício 3: Selecione todos os registros da tabela criada no exercício 1.

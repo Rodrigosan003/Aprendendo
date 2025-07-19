@@ -1,0 +1,1 @@
+-- Exercício 10: Crie um procedimento armazenado que insira um registro na tabela criada no exercício 1.
