@@ -62,6 +62,22 @@ body {
   margin-bottom: 10px;
 }
 
+.contact {
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.contact .info {
+  display: flex;
+  gap: 20px;
+}
+
+.contact .info img,
+p {
+  margin-top: 20px;
+}
+
 .perfil p {
   font-size: 13px;
   font-weight: lighter;
