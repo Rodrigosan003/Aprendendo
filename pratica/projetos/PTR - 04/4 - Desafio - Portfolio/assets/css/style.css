@@ -40,7 +40,6 @@ body {
 }
 
 .perfil {
-  height: 292px;
   width: 348px;
   display: flex;
   flex-direction: column;
@@ -62,6 +61,10 @@ body {
   margin-bottom: 10px;
 }
 
+.perfil p {
+  margin-bottom: 49px;
+}
+
 .contact {
   padding-left: 40px;
   padding-top: 10px;
@@ -70,12 +73,21 @@ body {
 
 .contact .info {
   display: flex;
+  align-items: center;
   gap: 20px;
 }
 
 .contact .info img,
 p {
   margin-top: 20px;
+}
+
+.contact .info img {
+  font-size: 24px;
+}
+
+.contact .info p {
+  font-size: 12px;
 }
 
 .perfil p {
