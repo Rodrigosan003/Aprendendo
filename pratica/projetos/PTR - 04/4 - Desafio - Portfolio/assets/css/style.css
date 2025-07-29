@@ -31,7 +31,7 @@ body {
 }
 
 .left {
-  width: 25%;
+  width: 30%;
   color: var(--text-color);
 }
 
@@ -65,6 +65,12 @@ body {
   margin-bottom: 49px;
 }
 
+.perfil p {
+  font-size: 13px;
+  font-weight: lighter;
+  margin-bottom: 49px;
+}
+
 .contact {
   padding-left: 40px;
   padding-top: 10px;
@@ -90,10 +96,36 @@ p {
   font-size: 12px;
 }
 
-.perfil p {
-  font-size: 13px;
-  font-weight: lighter;
-  margin-bottom: 49px;
+.tecnologias h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.tecnologias .tech {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 30px;
+}
+.box-tech {
+  display: flex;
+}
+
+.tecnologias p {
+  padding-top: 6px;
+  padding-bottom: 7px;
+  background: var(--bg-techs);
+  border-radius: 30px;
+  width: 86px;
+  height: 24px;
+  font-size: 10px;
+  text-align: center;
+  /* margin-bottom: 15px; */
+  margin-right: 15px;
+  color: #000;
+  font-weight: bold;
 }
 
 .right {
