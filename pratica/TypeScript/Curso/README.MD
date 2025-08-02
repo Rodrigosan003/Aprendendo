@@ -5,3 +5,4 @@
 - Aula 03: Formas de configurar.
 - Aula 04: Inferência de Tipos.
 - Aula 05: Union types.
+- Aula 06: Array - ReadOnly Array
