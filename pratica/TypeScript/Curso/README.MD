@@ -7,3 +7,4 @@
 - Aula 05: Union types.
 - Aula 06: Array - ReadOnly Array
 - Aula 07: Aprendendo sobre Tuplas
+- Aula 08: Tipo Object
