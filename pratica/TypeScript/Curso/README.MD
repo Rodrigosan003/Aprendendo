@@ -5,6 +5,7 @@
 - Aula 03: Formas de configurar.
 - Aula 04: Inferência de Tipos.
 - Aula 05: Union types.
-- Aula 06: Array - ReadOnly Array
-- Aula 07: Aprendendo sobre Tuplas
-- Aula 08: Tipo Object
+- Aula 06: Array - ReadOnly Array.
+- Aula 07: Aprendendo sobre Tuplas.
+- Aula 08: Tipo Object.
+- Aula 09: ENUM.
