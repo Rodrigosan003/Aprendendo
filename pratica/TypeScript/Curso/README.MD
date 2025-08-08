@@ -9,3 +9,4 @@
 - Aula 07: Aprendendo sobre Tuplas.
 - Aula 08: Tipo Object.
 - Aula 09: ENUM.
+- Aula 10: Diferenças entre NULL, UNDEFINED e UNKNOWN em TypeScript.
