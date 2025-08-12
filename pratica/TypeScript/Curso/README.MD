@@ -12,3 +12,4 @@
 - Aula 10: Diferenças entre NULL, UNDEFINED e UNKNOWN em TypeScript.
 - Aula 11: Aprendendo sobre Type Assertion e Typecast em TypeScript.
 - Aula 12: Aprendendo sobre Funções em TypeScript.
+- Aula 13: Funções em TypeScript PT2, Parâmetros padrões e opcionais.
