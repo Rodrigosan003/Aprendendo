@@ -13,3 +13,4 @@
 - Aula 11: Aprendendo sobre Type Assertion e Typecast em TypeScript.
 - Aula 12: Aprendendo sobre Funções em TypeScript.
 - Aula 13: Funções em TypeScript PT2, Parâmetros padrões e opcionais.
+- Aula 14: Arrow function ou Função de Seta.
