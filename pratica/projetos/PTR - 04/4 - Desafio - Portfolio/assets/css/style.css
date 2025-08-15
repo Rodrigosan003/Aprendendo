@@ -8,6 +8,7 @@
 :root {
   --body-bg-color: #22212c;
   --text-color: #837e9f;
+  --text-color-black: #000;
   --bg-cards: #302f3d;
   --bg-techs: #cb92b1;
 }
@@ -72,4 +73,39 @@
 .links img {
   width: 24px;
   height: 24px;
+}
+
+.tecnologies {
+  padding: 30px 20px 15px 20px;
+  margin-bottom: 30px;
+}
+
+.tecnologies h2 {
+  color: var(--text-color);
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.skills-tech {
+  padding: 0 10px;
+}
+
+.skills {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.skills p {
+  text-align: center;
+  padding: 6px 0 7px 0;
+
+  color: var(--text-color-black);
+  background-color: var(--bg-techs);
+  border-radius: 20px;
+  height: 24px;
+  width: 86px;
+  font-size: 10px;
+  font-weight: bold;
 }
