@@ -140,3 +140,33 @@
   font-size: 12px;
   font-weight: light;
 }
+
+.education {
+  padding: 30px 0 15px 20px;
+  color: var(--text-color);
+}
+
+.education h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.education ul {
+  margin-left: 20px;
+  padding-left: 25px;
+}
+
+.education h3 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.education li {
+  margin-bottom: 15px;
+}
+
+.education p {
+  font-size: 12px;
+  font-weight: light;
+}
