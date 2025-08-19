@@ -20,7 +20,15 @@
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
 }
 
+.card-right {
+  background: var(--bg-cards);
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
 .container {
+  display: flex;
+  gap: 60px;
   padding: 40px;
   background-color: var(--body-bg-color);
 }
@@ -169,4 +177,94 @@
 .education p {
   font-size: 12px;
   font-weight: light;
+}
+
+.right {
+  width: 100%;
+}
+
+.myprojects {
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  color: var(--text-color);
+  margin-bottom: 31px;
+}
+
+.projects-content {
+  display: flex;
+  gap: 30px;
+}
+.project-card {
+  padding: 30px;
+  color: var(--text-color);
+}
+
+.project-card .top {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 22px;
+}
+
+.project-card .top img {
+  width: 20px;
+  height: 20px;
+}
+
+.project-card .top h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.project-card p {
+  font-size: 14px;
+  font-weight: regular;
+}
+
+.project-card .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 49px;
+}
+
+.project-card .bottom .bottom-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.project-card .bottom .bottom-left .box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.project-card .bottom .bottom-left .box img {
+  width: 20px;
+  height: 20px;
+}
+
+.project-card .bottom .bottom-left p {
+  font-size: 14px;
+  font-weight: regular;
+}
+
+.project-card .bottom .bottom-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.project-card .bottom .bottom-right img {
+  width: 15px;
+  height: 15px;
+}
+
+.project-card .bottom .bottom-right p {
+  font-size: 14px;
+  font-weight: regular;
 }
