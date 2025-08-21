@@ -14,3 +14,4 @@
 - Aula 12: Aprendendo sobre Funções em TypeScript.
 - Aula 13: Funções em TypeScript PT2, Parâmetros padrões e opcionais.
 - Aula 14: Arrow function ou Função de Seta.
+- Aula 15: Aprendendo sobre parâmetros REST com SPREAD em Typescript.
