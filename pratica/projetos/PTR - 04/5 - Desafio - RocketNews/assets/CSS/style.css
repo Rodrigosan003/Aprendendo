@@ -12,3 +12,18 @@
   --form-color: #a8a8a8;
   --bg-button-color: #8257e5;
 }
+
+.container {
+  height: 100vh;
+  background-image: url("../images/read_news.jpg");
+  background-size: contain;
+  /* background-size: calc(100% - 350px) 100%; Testando */
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+.container-background {
+  height: 100vh;
+  width: 50%;
+  background: var(--body-bg-color);
+}
