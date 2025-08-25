@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Spartan, Work Sans, sans-serif;
+  /* font-family: Spartan, Work Sans, sans-serif; */
 }
 
 :root {
@@ -17,7 +17,6 @@
   height: 100vh;
   background-image: url("../images/read_news.jpg");
   background-size: contain;
-  /* background-size: calc(100% - 350px) 100%; Testando */
   background-position: right center;
   background-repeat: no-repeat;
 }
@@ -25,5 +24,24 @@
 .container-background {
   height: 100vh;
   width: 50%;
+  padding: 60px 0 0 25px;
   background: var(--body-bg-color);
+}
+
+.container-background img {
+  height: 90px;
+}
+
+.container-background h1 {
+  color: var(--title-color);
+  font-family: work sans;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.container-background h2 {
+  color: var(--text-color);
+  font-family: Spartan;
+  font-size: 14px;
+  font-weight: 600;
 }
