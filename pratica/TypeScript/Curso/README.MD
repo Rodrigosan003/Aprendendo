@@ -17,3 +17,4 @@
 - Aula 15: Aprendendo sobre parâmetros REST com SPREAD em Typescript.
 - Aula 16: Aprendendo sobre P.O.O. Classes em Typescript.
 - Aula 17: Aprendendo sobre P.O.O. Método Construtor em Typescript.
+- Aula 18: Aprendendo sobre P.O.O. Métodos de classes em Typescript.
