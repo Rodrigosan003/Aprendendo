@@ -19,3 +19,4 @@
 - Aula 17: Aprendendo sobre P.O.O. Método Construtor em Typescript.
 - Aula 18: Aprendendo sobre P.O.O. Métodos de classes em Typescript.
 - Aula 19: Aprendendo sobre P.O.O. Modificadores de acesso em Typescript.
+- Aula 20: Aprendendo sobre P.O.O. Entendendo HERANÇA em Typescript.
