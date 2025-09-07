@@ -22,3 +22,18 @@
 - Aula 20: Aprendendo sobre P.O.O. Entendendo HERANÇA em Typescript.
 - Aula 21: Aprendendo sobre P.O.O. Entendendo HERANÇA em Typescript.
 - Aula 22: Aprendendo sobre P.O.O. Entendendo HERANÇA em Typescript.
+- Aula 23: Aprendendo sobre P.O.O. Entendendo HERANÇA em Typescript.
+- Aula 24: Aprendendo sobre P.O.O. Entendendo HERANÇA em Typescript.
+- Aula 25: Métodos GETTER e SETTER- aprenda o que são e como utilizar.
+- Aula 26: Aprendendo Classes Abstratas em Typescript.
+- Aula 27: Aprendendo sobre INTERFACE e Objetos Literais em Typescript.
+- Aula 28: Aprendendo mais sobre INTERFACE em Typescript.
+- Aula 29: Aprende o que é GENERICS em Typescript.
+- Aula 30: Trabalhando com Módulos em Typescript.
+- Aula 31: Trabalhando com Módulos em Typescript.
+- Aula 32: Entendendo Namespace em Typescript.
+- Aula 33: Entendendo Namespace em Typescript.
+- Aula 34: Entendendo Namespace - CLASSES em Typescript.
+- Aula 35: Praticando Desestruturação em Typescript.
+- Aula 36: Praticando Desestruturação em Typescript.
+- Aula 37: Entendendo o modificador STATIC de POO em Typescript.
