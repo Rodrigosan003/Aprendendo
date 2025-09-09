@@ -19,6 +19,7 @@
   background-size: contain;
   background-position: right center;
   background-repeat: no-repeat;
+  position: relative;
 }
 
 .container-background {
@@ -32,11 +33,16 @@
   height: 90px;
 }
 
+.text {
+  margin-top: 82px;
+}
+
 .container-background h1 {
   color: var(--title-color);
   font-family: work sans;
   font-size: 24px;
   font-weight: 700;
+  margin-bottom: 8.5px;
 }
 
 .container-background h2 {
@@ -44,6 +50,7 @@
   font-family: Spartan, sans-serif;
   font-size: 14px;
   font-weight: bold;
+  margin-bottom: 9px;
 }
 
 .container-background p {
@@ -51,4 +58,44 @@
   color: var(--text-color);
   font-size: 14px;
   font-weight: 400;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: var(--text-color);
+  position: absolute;
+  top: 388px;
+  left: 36px;
+}
+.form label {
+  color: var(--form-color);
+  font-size: 14px;
+  font-weight: 700;
+  font-family: Spartan, sans-serif;
+}
+
+.form input {
+  position: relative;
+  width: 798px;
+  height: 48px;
+  padding: 0 16px;
+  /* border-radius: 8px; */
+  border: none;
+  border-left: 5px solid var(--title-color);
+  background: var(--text-color);
+  color: var(--body-bg-color);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Spartan, sans-serif;
+}
+
+.form .arrow {
+  display: flex;
+  align-items: center;
+}
+
+.form .arrow span {
+  display: flex;
 }
