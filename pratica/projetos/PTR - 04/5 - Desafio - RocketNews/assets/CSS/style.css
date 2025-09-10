@@ -39,7 +39,7 @@
 
 .container-background h1 {
   color: var(--title-color);
-  font-family: work sans;
+  font-family: work sans, sans-serif;
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 8.5px;
@@ -69,11 +69,18 @@
   top: 388px;
   left: 36px;
 }
+
 .form label {
   color: var(--form-color);
   font-size: 14px;
   font-weight: 700;
   font-family: Spartan, sans-serif;
+  margin-bottom: 17px;
+}
+
+.form .input {
+  display: flex;
+  align-items: center;
 }
 
 .form input {
@@ -81,21 +88,46 @@
   width: 798px;
   height: 48px;
   padding: 0 16px;
-  /* border-radius: 8px; */
   border: none;
+  outline: none;
   border-left: 5px solid var(--title-color);
   background: var(--text-color);
   color: var(--body-bg-color);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.418);
   font-size: 16px;
   font-weight: 400;
   font-family: Spartan, sans-serif;
+  transition: 0.2s;
+}
+
+.form input:focus {
+  border: 5px solid var(--bg-button-color);
+}
+.form input::placeholder {
+  color: var(--body-bg-color);
+  opacity: 0.6;
+  font-size: 12px;
+}
+
+.form .input button {
+  width: 48px;
+  height: 48px;
+  border: none;
+  background: var(--bg-button-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .form .arrow {
   display: flex;
   align-items: center;
-}
-
-.form .arrow span {
-  display: flex;
+  margin-top: 50px;
+  gap: 5px;
+  color: var(--bg-button-color);
+  font-size: 14px;
+  font-weight: 700;
+  font-family: Spartan, sans-serif;
+  cursor: pointer;
 }
