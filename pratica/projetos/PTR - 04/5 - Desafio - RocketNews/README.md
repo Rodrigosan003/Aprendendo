@@ -10,7 +10,7 @@
 
 ### Visualisação:
 
-![site]()
+![site](./assets/images/rocketNews.png)
 
 ### Tecnologias
 
