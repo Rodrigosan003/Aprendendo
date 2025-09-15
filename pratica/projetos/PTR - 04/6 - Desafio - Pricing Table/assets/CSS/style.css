@@ -11,3 +11,52 @@
   --gray: #828799;
   --page-background: #f9fbfc;
 }
+
+.container {
+  width: 100%;
+  padding: 6.25rem 0 6.875rem 0;
+  background: linear-gradient(
+    to bottom,
+    var(--blue) 50%,
+    var(--page-background) 50%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: var(--page-background);
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+}
+
+p {
+  color: var(--page-background);
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-bottom: 4.7rem;
+}
+
+.pricing {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.card {
+  /* background: var(--page-background); */
+  background: blue;
+  border-radius: 0.625rem;
+  box-shadow: 0 0.625rem 1.25rem rgba(0, 0, 0, 0.363);
+  padding: 2.5rem;
+  height: 29.375rem;
+  width: 22.19rem;
+  text-align: center;
+}
+
+.basic {
+  height: 30.625rem;
+}
