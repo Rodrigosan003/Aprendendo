@@ -43,6 +43,7 @@ p.subtitle {
 }
 
 .pricing {
+  height: auto;
   display: flex;
   align-items: center;
   gap: 2rem;
@@ -53,7 +54,7 @@ p.subtitle {
   border-radius: 0.625rem;
   box-shadow: 0 0.625rem 1.25rem rgba(0, 0, 0, 0.363);
   padding: 1.875rem;
-  /* height: 29.375rem; */
+  height: 29.375rem;
   width: 22.19rem;
 }
 
@@ -65,14 +66,14 @@ p.subtitle {
   color: var(--black);
   font-size: 1.125rem;
   font-weight: 700;
-  margin-bottom: 1.25rem;
+  /* margin-bottom: 1.25rem; */
 }
 
 .price {
   color: var(--black);
   font-size: 3.125rem;
   font-weight: 700;
-  margin-bottom: 0.625rem;
+  /* margin-bottom: 0.625rem; */
 }
 
 .price span {
@@ -106,7 +107,8 @@ ul {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
 ul li {
@@ -129,4 +131,5 @@ button {
   font-weight: 700;
   cursor: pointer;
   margin-top: 7.5rem;
+  text-align: center;
 }
