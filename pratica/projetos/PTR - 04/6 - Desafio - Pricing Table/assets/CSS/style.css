@@ -40,6 +40,8 @@ p.subtitle {
   font-size: 1.125rem;
   font-weight: 400;
   margin-bottom: 4.7rem;
+  width: 34.5625rem;
+  text-align: center;
 }
 
 .pricing {
@@ -60,4 +62,87 @@ p.subtitle {
 
 .basic {
   height: 30.625rem;
+}
+
+.card h2 {
+  color: var(--black);
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.625rem;
+}
+
+.price .cifra {
+  color: var(--black);
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.price .valor {
+  color: var(--black);
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+.price .valor span.decimal {
+  font-size: 1rem;
+  margin: 0 0.3rem 0 0.1rem;
+}
+
+.price .valor span.period {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--gray);
+}
+
+.card .description {
+  font-size: 0.875rem;
+  color: var(--gray);
+  margin-bottom: 1.25rem;
+}
+
+.line {
+  color: var(--secondary-gray);
+  border: 1px solid;
+  margin-bottom: 1.25rem;
+}
+
+ul {
+  list-style-type: none;
+  color: var(--gray);
+  font-size: 0.875rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  gap: 0.9375rem;
+}
+
+button {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--blue);
+  background: none;
+  border: 1.5px solid var(--blue);
+  border-radius: 1rem;
+  padding: 0.75rem;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 7.5rem;
+  transition: 0.3s ease-in-out;
+}
+
+button:hover {
+  color: var(--page-background);
+  background: var(--blue);
 }
