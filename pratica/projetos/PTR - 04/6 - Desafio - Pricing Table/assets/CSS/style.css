@@ -62,6 +62,7 @@ p.subtitle {
 
 .basic {
   height: 30.625rem;
+  position: relative;
 }
 
 .card h2 {
@@ -145,4 +146,15 @@ button {
 button:hover {
   color: var(--page-background);
   background: var(--blue);
+}
+
+.header-basic {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 0.625rem 0.625rem 0 0;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.185);
+  height: 76px;
+  width: 355px;
+  background: var(--yellow);
 }
