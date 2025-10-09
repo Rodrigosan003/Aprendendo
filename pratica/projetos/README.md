@@ -11,3 +11,9 @@ PTR 02 - Atividades de HTML e CSS do ChatGPT.
 PTR 03 - Reformulação de uma atividade do curso antiga.
 
 PTR 04 - Desafios da RocketSeat.
+
+PTR 05 - To-Do-List.
+
+PTR 06 - FormEmail.
+
+PTR 07 - Tabs
