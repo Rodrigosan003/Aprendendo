@@ -4,3 +4,14 @@
   box-sizing: border-box;
   font-family: Poppins, sans-serif;
 }
+
+:root {
+  --first-background-color: #1e1f29;
+  --second-background-color: #434557;
+  --text-color: #f3f3f3;
+  --primary-color: #45b8ed;
+}
+
+html {
+  scroll-behavior: smooth;
+}
