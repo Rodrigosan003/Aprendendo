@@ -110,3 +110,84 @@ html {
 .about .text-about a:hover {
   background: #369edc;
 }
+
+.contact {
+  background: var(--first-background-color);
+  color: var(--text-color);
+  min-height: 100vh;
+}
+
+.contact .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 0;
+}
+
+.contact h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.contact img {
+  height: 300px;
+  border-radius: 10px;
+}
+
+.form-contact {
+  max-width: 600px;
+  width: 100%;
+}
+
+.form-contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-contact input,
+textarea {
+  background: var(--second-background-color);
+  color: var(--text-color);
+  font-size: 1rem;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  resize: none;
+}
+
+.form-contact::placeholder {
+  color: var(--text-color);
+  opacity: 0.7;
+}
+.form-contact button {
+  padding: 10px;
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.form-contact button:hover {
+  background: #369edc;
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .about .container,
+  .contact .container {
+    flex-direction: column;
+  }
+
+  .about img,
+  .contact img {
+    margin-bottom: 20px;
+  }
+}
