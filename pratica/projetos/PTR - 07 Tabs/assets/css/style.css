@@ -26,6 +26,48 @@ html {
   height: 100vh;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--second-background-color);
+  color: var(--text-color);
+  padding: 0 50px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.header a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.header nav .nav-btn {
+  background: var(--second-background-color);
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 20px 20px 0 0;
+  border: none;
+  padding: 20px 40px;
+  margin: 0;
+  cursor: pointer;
+  transition: background 0.5s ease-in-out;
+}
+
+.header nav .nav-btn:hover,
+.header nav .nav-btn.active {
+  background: var(--first-background-color);
+  border-radius: 20px 20px 0 0;
+}
+
 .home {
   background: var(--first-background-color);
   color: var(--text-color);
