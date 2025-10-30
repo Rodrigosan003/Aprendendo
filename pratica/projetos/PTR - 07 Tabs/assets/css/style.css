@@ -40,9 +40,8 @@ html {
   z-index: 1000;
 }
 
-.header .logo {
-  font-size: 1.5rem;
-  font-weight: bold;
+.header .logo img {
+  height: 40px;
 }
 
 .header a {
