@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Modo Claro / Escuro</title>
+
+    <style>
+      /* -----------------------------------------
+       Usamos variáveis CSS para facilitar troca
+       ----------------------------------------- */
+      :root {
+        --bg: #ffffff;
+        --fg: #111111;
+        --card: #f2f2f2;
+        --accent: #0066cc;
+        --transition: 200ms ease;
+      }
+
+      /* tema escuro (quando atributo data-theme="dark" estiver no <html>) */
+      html[data-theme="dark"] {
+        --bg: #0f1220;
+        --fg: #e6e7ea;
+        --card: #151826;
+        --accent: #4ea3ff;
+      }
+
+      /* Se o usuário não escolheu nada, respeitamos a preferência do sistema */
+      @media (prefers-color-scheme: dark) {
+        :root {
+          /* estas são valores iniciais caso o user não tenha escolha salva */
+          --bg: #0f1220;
+          --fg: #e6e7ea;
+          --card: #151826;
+          --accent: #4ea3ff;
+        }
+      }
+
+      /* reset e layout simples */
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+      }
+      body {
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial;
+        background: var(--bg);
+        color: var(--fg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        transition: background var(--transition), color var(--transition);
+      }
+
+      .card {
+        background: var(--card);
+        padding: 1.5rem;
+        border-radius: 12px;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+        width: 100%;
+        max-width: 520px;
+        transition: background var(--transition), box-shadow var(--transition);
+      }
+
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+      }
+      h1 {
+        margin: 0;
+        font-size: 1.25rem;
+      }
+
+      /* Toggle estilo (simples, acessível) */
+      .toggle {
+        --w: 52px;
+        --h: 30px;
+        position: relative;
+        width: var(--w);
+        height: var(--h);
+      }
+
+      .toggle input {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+      }
+
+      .track {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.12);
+        border-radius: 999px;
+        display: flex;
+        align-items: center;
+        padding: 4px;
+        transition: background var(--transition);
+      }
+
+      html[data-theme="dark"] .track {
+        background: rgba(255, 255, 255, 0.12);
+      }
+
+      .thumb {
+        width: calc(var(--h) - 8px);
+        height: calc(var(--h) - 8px);
+        background: white;
+        border-radius: 50%;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        transform: translateX(0);
+        transition: transform var(--transition), background var(--transition);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+      }
+
+      /* posição quando dark (movemos o "thumb" para a direita) */
+      html[data-theme="dark"] .thumb {
+        transform: translateX(calc(var(--w) - var(--h)));
+        background: #222; /* ajuste visual para dark */
+        color: var(--fg);
+      }
+
+      /* foco acessível */
+      .toggle input:focus + .track {
+        outline: 3px solid color-mix(in srgb, var(--accent) 40%, transparent);
+        outline-offset: 3px;
+      }
+
+      p {
+        margin-top: 1rem;
+        line-height: 1.5;
+      }
+      .note {
+        font-size: 0.9rem;
+        opacity: 0.9;
+        margin-top: 0.75rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card" role="main">
+      <header>
+        <div>
+          <h1>Modo Claro / Escuro</h1>
+          <div class="note">
+            Alterna entre temas; a escolha é lembrada no navegador.
+          </div>
+        </div>
+
+        <!-- Toggle control: checkbox escondido + visual -->
+        <label
+          class="toggle"
+          aria-label="Alternar tema claro e escuro"
+          title="Alternar tema"
+        >
+          <input
+            id="theme-toggle"
+            type="checkbox"
+            role="switch"
+            aria-checked="false"
+          />
+          <span class="track" aria-hidden="true">
+            <span class="thumb" aria-hidden="true">☀️</span>
+          </span>
+        </label>
+      </header>
+
+      <p>
+        Exemplo de conteúdo para ver o contraste. Troque o tema usando o
+        interruptor no canto.
+      </p>
+    </main>
+
+    <script>
+      (function () {
+        const root = document.documentElement; // <html>
+        const toggle = document.getElementById("theme-toggle");
+        const storageKey = "site-theme"; // chave para localStorage
+
+        // 1) Função para aplicar tema: "light" | "dark" | null (null -> remove preferência)
+        function applyTheme(theme) {
+          if (theme === "dark") {
+            root.setAttribute("data-theme", "dark");
+            toggle.checked = true;
+            toggle.setAttribute("aria-checked", "true");
+            // deixar o ícone apropriado
+            root.querySelector(".thumb").textContent = "🌙";
+          } else if (theme === "light") {
+            root.setAttribute("data-theme", "light"); // opcional; nossos estilos default vêm de :root
+            toggle.checked = false;
+            toggle.setAttribute("aria-checked", "false");
+            root.querySelector(".thumb").textContent = "☀️";
+          } else {
+            // remove atributo para que o media query do sistema possa agir
+            root.removeAttribute("data-theme");
+            // define checkbox conforme preferência do sistema
+            const prefersDark =
+              window.matchMedia &&
+              window.matchMedia("(prefers-color-scheme: dark)").matches;
+            toggle.checked = prefersDark;
+            toggle.setAttribute("aria-checked", String(prefersDark));
+            root.querySelector(".thumb").textContent = prefersDark
+              ? "🌙"
+              : "☀️";
+          }
+        }
+
+        // 2) Inicialização: lê localStorage e aplica
+        const saved = localStorage.getItem(storageKey); // 'dark' | 'light' | null
+        if (saved === "dark" || saved === "light") {
+          applyTheme(saved);
+        } else {
+          // sem preferência salva -> seguir preferência do sistema
+          applyTheme(null);
+        }
+
+        // 3) Ao clicar/trocar o toggle, atualizamos o tema e salvamos
+        toggle.addEventListener("change", function () {
+          if (this.checked) {
+            applyTheme("dark");
+            localStorage.setItem(storageKey, "dark");
+          } else {
+            applyTheme("light");
+            localStorage.setItem(storageKey, "light");
+          }
+        });
+
+        // 4) Se o usuário mudar a preferência do sistema enquanto estiver sem preferência salva,
+        //    refletimos isso (apenas quando não há preferência salva)
+        if (window.matchMedia) {
+          const mq = window.matchMedia("(prefers-color-scheme: dark)");
+          mq.addEventListener
+            ? mq.addEventListener("change", (e) => {
+                if (!localStorage.getItem(storageKey)) applyTheme(null);
+              })
+            : mq.addListener((e) => {
+                if (!localStorage.getItem(storageKey)) applyTheme(null);
+              });
+        }
+
+        // Sugestão opcional: expose function to clear saved preference (useful para debug)
+        window.clearThemePreference = () => {
+          localStorage.removeItem(storageKey);
+          applyTheme(null);
+        };
+      })();
+    </script>
+  </body>
+</html>
