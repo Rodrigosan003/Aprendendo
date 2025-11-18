@@ -1,6 +1,6 @@
 #!/bin/bash
 # ============================================================
-# Atualização automática completa para Manjaro Linux
+# Atualização automática completa para Arch Linux
 # Inclui: Pacman, AUR (yay), Flatpak, Snap e Pip3
 # Autor: Rodrigo Santana
 # ============================================================
@@ -33,7 +33,7 @@ error() {
 
 run_step() {
     msg "$1"
-    if eval "$2" >>"$LOG_FILE" 2>&1; then
+    if eval "$2" 2>&1 | tee -a "$LOG_FILE"; then
         success "$3"
     else
         error "Erro em: $1 (verifique o log em $LOG_FILE)"
@@ -46,7 +46,7 @@ run_step() {
 # -------------------------------
 clear
 echo "==================================================="
-echo "     ATUALIZAÇÃO AUTOMÁTICA - MANJARO LINUX        "
+echo "     ATUALIZAÇÃO AUTOMÁTICA - ARCH LINUX           "
 echo "==================================================="
 echo "Log: $LOG_FILE"
 echo ""
@@ -83,20 +83,14 @@ else
     error "snap não está instalado. Pulei esta etapa."
 fi
 
-# Atualizar pip3
-if command -v pip3 &>/dev/null; then
-    run_step "Atualizando pip3..." \
-             "sudo pip3 install --upgrade pip" \
-             "Pip3 atualizado com sucesso!"
-else
-    error "pip3 não está instalado. Pulei esta etapa."
-fi
 
 # Limpeza automática de cache
 msg "Limpando cache do sistema..."
-sudo pacman -Sc --noconfirm
-yay -Sc --noconfirm || true
-flatpak uninstall --unused -y || true
+{
+    sudo pacman -Sc --noconfirm
+    yay -Sc --noconfirm || true
+    flatpak uninstall --unused -y || true
+} 2>&1 | tee -a "$LOG_FILE"
 success "Limpeza concluída!"
 
 echo ""
