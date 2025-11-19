@@ -1,0 +1,5 @@
+atualizacaoArch.sh
+atualizacaoDeb.sh
+Básico
+dados.txt
+instalarFlatpak.sh
