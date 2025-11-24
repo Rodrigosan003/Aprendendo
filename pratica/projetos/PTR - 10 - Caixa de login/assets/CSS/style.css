@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+/* Login card styles */
+.login-wrapper{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+.login-card{
+    width: 360px;
+    max-width: 100%;
+    background: rgba(255,255,255,0.10); /* leve transparência */
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 14px; /* bordas arredondadas */
+    box-shadow: 0 12px 30px rgba(0,0,0,0.45); /* sombra */
+    padding: 28px 24px;
+    border: 1px solid rgba(255,255,255,0.12);
+    color: #fff;
+}
+
+.login-title{
+    margin-bottom: 18px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.login-form input{
+    width: 100%;
+    padding: 12px 14px;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.10);
+    color: #fff;
+    border-radius: 10px;
+    outline: none;
+    font-size: 0.95rem;
+}
+
+.login-form input::placeholder{
+    color: rgba(255,255,255,0.7);
+}
+
+.btn-login{
+    margin-top: 6px;
+    padding: 12px 14px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    background: linear-gradient(90deg,#4b6cb7,#182848);
+    color: #fff;
+    box-shadow: 0 6px 18px rgba(27,41,69,0.5);
+}
+
+.btn-login:hover{
+    transform: translateY(-1px);
+}
+
+.sr-only{ /* acessibilidade */
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
+
+@media (max-width:420px){
+    .login-card{ padding: 20px; border-radius: 12px; }
+}
+
+.input-error{
+    color: #ffd6d6;
+    font-size: 0.85rem;
+    margin-top: 6px;
+    min-height: 18px;
+}
+
+.input-error.success{
+    color: #b8f6c1;
+}
