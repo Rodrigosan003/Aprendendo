@@ -16,4 +16,14 @@ PTR 05 - To-Do-List.
 
 PTR 06 - FormEmail.
 
-PTR 07 - Tabs
+PTR 07 - Tabs - New Version
+
+PTR 07 - Tabs - ReactJS
+
+PTR 07 - Tabs - Original
+
+PTR 08 - Formulário
+
+PTR 09 - Card Perfil
+
+PTR 10 - Caixa de login
