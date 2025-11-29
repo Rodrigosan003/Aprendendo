@@ -5,12 +5,36 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body {
+/* body {
     background-image: url(../images/pankaj-patel-Fi-GJaLRGKc-unsplash.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
+} */
+
+
+body {
+    height: 100vh;
+    margin: 0;
+
+    /* 1ª camada: o gradiente em cone
+       2ª camada: a imagem */
+    background-image:
+        conic-gradient(
+            rgba(0, 0, 0, 0.363) 0deg,   /* centro transparente */
+            rgba(0, 0, 0, 0.438) 120deg,
+            rgba(0, 0, 0, 0.712) 240deg,
+            rgba(0, 0, 0, 0.979) 360deg
+        ),
+        url("../images/pankaj-patel-Fi-GJaLRGKc-unsplash.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    /* Faz o gradiente misturar com a imagem */
+    background-blend-mode: darken;
 }
+
 
 .card {
     width: 350px;
@@ -26,6 +50,11 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
 }
 
 .card img {
