@@ -1,3 +1,4 @@
+// Calcular idade.
 const readline = require("readline-sync");
 
 let nome = readline.question("Digite seu nome: ");
