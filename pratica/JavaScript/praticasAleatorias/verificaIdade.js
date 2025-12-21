@@ -13,8 +13,11 @@ function calcularIdade(anoDeNascimento, anoAtual) {
 }
 
 let idade = calcularIdade(anoDeNascimento, anoAtual);
-
-if (idade < 18) {
+if (idade < 0 || idade > 120 || isNaN(idade)) {
+    console.log("Idade inválida.");
+} else if (idade >= 60) {
+    console.log(`Olá ${nome}. Você é idoso.`);
+} else if (idade < 18) {
     console.log(`Olá ${nome}. Você é menor de idade.`);
 } else {
     console.log(`Olá ${nome}. Você é maior de idade.`);
