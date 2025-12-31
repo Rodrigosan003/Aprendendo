@@ -29,3 +29,5 @@ PTR 09 - Card Perfil
 PTR 10 - Caixa de login
 
 PTR 11 - Troca de cor
+
+PTR 12 - Troca de imagens
