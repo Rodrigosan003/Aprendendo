@@ -10,7 +10,7 @@
 
 ### Visualisação:
 
-![site]())
+![site](./assets/images/trocaImagem.png)
 
 ### Tecnologias
 
