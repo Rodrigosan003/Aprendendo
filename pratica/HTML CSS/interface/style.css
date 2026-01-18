@@ -65,15 +65,24 @@ li:hover {
 
 .container {
   height: 100%;
+  padding:0 70px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .quadrado {
- height: 100px;
- width: 100px;
+ height: 300px;
+ width: 200px;
+ border-radius: 25%;
  background: white;
+}
+
+.circulo {
+  height: 300px;
+  width: 200px;
+  border-radius: 50%;
+  background: white;
 }
 
 .sobre {
