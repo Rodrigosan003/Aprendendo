@@ -75,15 +75,15 @@ li:hover {
 }
 
 .quadrado {
- height: 300px;
- width: 200px;
+ height: 600px;
+ width: 400px;
  border-radius: 25%;
  background: white;
 }
 
 .circulo {
-  height: 300px;
-  width: 200px;
+  height: 600px;
+  width: 400px;
   border-radius: 50%;
   background: white;
 }
