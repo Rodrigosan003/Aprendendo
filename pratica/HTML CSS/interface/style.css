@@ -75,15 +75,15 @@ li:hover {
 }
 
 .quadrado {
- height: 600px;
- width: 400px;
+ height: 400px;
+ width: 200px;
  border-radius: 25%;
  background: white;
 }
 
 .circulo {
-  height: 600px;
-  width: 400px;
+  height: 400px;
+  width: 200px;
   border-radius: 50%;
   background: white;
 }
@@ -91,6 +91,15 @@ li:hover {
 .sobre {
   height: 100dvh;
   background: rgb(54, 54, 54);
+}
+
+.text {
+  max-width: 400px;
+}
+
+.text p {
+  color: white;
+  font-size: 30px;
 }
 
 .contato {
