@@ -107,6 +107,10 @@ li:hover {
   background: gray;
 }
 
+form {
+  background: white;
+}
+
 .footer {
   height: 80px;
   background: black;
