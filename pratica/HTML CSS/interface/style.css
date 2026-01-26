@@ -104,11 +104,22 @@ li:hover {
 
 .contato {
   height: 100dvh;
+  width: 100%;
   background: gray;
+}
+
+.contato .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 form {
   background: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
 .footer {
