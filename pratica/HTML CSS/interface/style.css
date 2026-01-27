@@ -122,6 +122,10 @@ form {
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
+.nome, .email {
+  padding-bottom: 10px;
+}
+
 .footer {
   height: 80px;
   background: black;
