@@ -122,6 +122,10 @@ form {
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
+input {
+  border-radius: 10px;
+}
+
 .nome, .email {
   padding-bottom: 10px;
 }
