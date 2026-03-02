@@ -92,7 +92,7 @@ main {
 }
 
 @keyframes navLinkFade {
-    fom {
+    from {
         opacity: 0;
         transform: translateX(50px);
     }
