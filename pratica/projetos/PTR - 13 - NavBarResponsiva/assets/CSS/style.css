@@ -24,4 +24,23 @@ a:hover {
 nav {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    background: #333;
+    height: 8vh;
+}
+
+main {
+    background: url("../images/img1.jpg") no-repeat center center;
+    background-size: cover;
+    height: 92vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
 }
