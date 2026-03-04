@@ -16,8 +16,20 @@
 <body>
     <div class="container">
         <form class="form">
-            <label for="first">Primeiro Número:</label>
-            <input type="number" name="first" id="first">
+            <div class="in">
+              <label for="first">Primeiro Número:</label>
+              <input type="number" name="first" id="first" required>
+              <label for="second">Segundo Número:</label>
+              <input type="number" name="second" id="second">
+            </div>
+            <div class="operation">
+                <button>+</button>
+                <button>-</button>
+                <button>x</button>
+                <button>/</button>
+                <button>=</button>
+                <button>C</button>
+            </div>
         </form>
     </div>    
     <script src="assets/JS/script.js" defer></script>
