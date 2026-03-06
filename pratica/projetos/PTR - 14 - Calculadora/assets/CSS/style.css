@@ -14,7 +14,26 @@
 }
 
 .form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     border: 2px solid red;
-    width: 400px;
     padding: 30px;
+    background: black;
+}
+
+.form .in {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form label {
+    font-size: 20px;
+    font-weight: 300;
+    color: whitesmoke;
+}
+
+.form input {
+    width: 50px;
 }
