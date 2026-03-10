@@ -50,4 +50,12 @@
     border: 1px solid black;
 }
 
-
+.operation button {
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    background: white;
+    font-size: 15px;
+}
