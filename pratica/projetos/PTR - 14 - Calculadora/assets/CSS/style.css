@@ -58,6 +58,9 @@
     margin-top: 20px;
     background: white;
     font-size: 15px;
+    cursor: pointer;
 }
 
-
+.action {
+    margin-top: 20px;
+}
