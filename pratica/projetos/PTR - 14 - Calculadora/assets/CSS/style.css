@@ -74,22 +74,8 @@
     margin-top: 20px;
 }
 
-.action button {
-    height: 30px;
-    width: 30px;
-    border: 2px solid white;
+#igual {
+    background: green;
+    border: 2px solid green;
     border-radius: 5px;
-    background: white;
-    color: black;
-    font-size: 15px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: 0.3s ease;
-    margin-left: 5px;
-}
-
-.action button:hover {
-    border: 2px solid white;
-    color: white;
-    background: black;
 }
