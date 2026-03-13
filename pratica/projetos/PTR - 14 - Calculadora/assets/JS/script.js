@@ -12,4 +12,16 @@ let divisao = document.getElementById("divisao");
 let limpar = document.getElementById("limpar");
 let igual = document.getElementById("igual");
 
-console.log(second)
+let res = document.getElementById("res");
+
+res.textContent = "Oiiee"
+
+
+
+
+
+
+
+
+
+// console.log(second)
