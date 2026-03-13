@@ -14,7 +14,9 @@ let igual = document.getElementById("igual");
 
 let res = document.getElementById("res");
 
-res.textContent = "Oiiee"
+function clicou() {
+  return res.textContent = "Clicou!!!";
+};
 
 
 
