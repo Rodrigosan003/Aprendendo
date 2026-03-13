@@ -1,3 +1,1 @@
-function clicou() {
-  alert("clicou");
-}
+
