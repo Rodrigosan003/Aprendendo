@@ -18,6 +18,11 @@ body {
     border-radius: 5px;
     cursor: pointer;
     font-size: 18px;
+    transition: .3s ease;
+}
+
+#botao:hover {
+    background-color: darkgreen;
 }
 
 #overlay {
@@ -31,6 +36,8 @@ body {
 }
 
 #modal {
+    height: 300px;
+    width: 300px;
     position: fixed;
     top: 50%;
     left: 50%;
