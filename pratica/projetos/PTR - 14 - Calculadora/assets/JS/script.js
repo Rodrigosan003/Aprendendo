@@ -3,10 +3,9 @@ let first = document.getElementById("first");
 let second = document.getElementById("second");
 
 // Operação
-let adicao = document.getElementById("adicao");
-let subtracao = document.getElementById("subtracao");
-let multiplicacao = document.getElementById("multiplicacao");
-let divisao = document.getElementById("divisao");
+let op = null;
+document.querySelectorAll("[data-op]").forEach(btn => {btn.onclick = () => op = btn.dataset.op;
+});
 
 // Ação
 let limpar = document.getElementById("limpar");
