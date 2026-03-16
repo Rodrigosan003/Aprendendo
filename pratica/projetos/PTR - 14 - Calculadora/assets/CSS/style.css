@@ -68,7 +68,7 @@
     transition: 0.3s ease;
 }
 
-.operation button:hover {
+.operation button:hover, .operation button.active {
     border: 2px solid white;
     color: white;
     background: black;
