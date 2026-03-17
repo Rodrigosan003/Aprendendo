@@ -1,22 +1,22 @@
-let op = null;
-document.querySelectorAll("[data-op]").forEach(btn => {
-  btn.onclick = () => op = btn.dataset.op;
-});
+// Inputs
+let first = document.getElementById("first");
+let second = document.getElementById("second");
 
-document.querySelector("#igual").onclick = (e) => {
-  e.preventDefault();
-  let n1 = Number(document.querySelector("#first").value);
-  let n2 = Number(document.querySelector("#second").value);
+// Operação
+let adicao = document.getElementById("adicao");
+let subtracao = document.getElementById("subtracao");
+let multiplicacao = document.getElementById("multiplicacao");
+let divisao = document.getElementById("divisao");
 
-  let r;
+// Ação
+let limpar = document.getElementById("limpar");
+let igual = document.getElementById("igual");
 
-  if(op === "+") r = n1 + n2;
-  if(op === "-") r = n1 - n2;
-  if(op === "*") r = n1 * n2;
-  if(op === "/") r = n1 / n2;
+let res = document.getElementById("res");
 
-  document.querySelector("#res").textContent = "Resultado: " + r;
-}
+function clicou() {
+  return res.textContent = "Clicou!!!";
+};
 
 
 
