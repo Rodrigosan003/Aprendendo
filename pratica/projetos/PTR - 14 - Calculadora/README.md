@@ -11,7 +11,7 @@
 ### Visualisação:
 
 ### Desk
-![site]()
+![site](./assets/images/calculadora.png)
 ### Tecnologias
 
 - HTML5
