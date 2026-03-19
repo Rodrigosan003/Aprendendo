@@ -5,5 +5,36 @@
 }
 
 body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     background: f4f4f4;
+}
+
+.red {
+    background: red;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.red:hover {
+    background: darkred;
+}
+
+.green {
+    background: green;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.green:hover {
+    background: darkgreen;
 }
