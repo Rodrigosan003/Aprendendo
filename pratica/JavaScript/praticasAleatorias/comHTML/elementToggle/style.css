@@ -7,6 +7,12 @@ body {
     justify-content: center;
     align-items: center;
     font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    transition: .3s ease;
 }
 
 #botao {
@@ -26,5 +32,6 @@ body {
 }
 
 .red {
+    color: white;
     background: red;
 }
