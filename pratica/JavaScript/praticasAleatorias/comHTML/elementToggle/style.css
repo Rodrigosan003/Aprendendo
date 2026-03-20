@@ -15,7 +15,7 @@ body {
     transition: .3s ease;
 }
 
-#botao {
+#btn-red {
     background-color: green;
     color: white;
     font-weight: bold;
@@ -27,11 +27,32 @@ body {
     transition: .3s ease;
 }
 
-#botao:hover {
+#btn-red:hover {
+    background-color: darkgreen;
+}
+
+#btn-blue {
+    background-color:green;
+    color: white;
+    font-weight: bold;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: .3s ease;
+}
+
+#btn-blue:hover {
     background-color: darkgreen;
 }
 
 .red {
     color: white;
     background: red;
+}
+
+.blue {
+    color: white;
+    background: blue;
 }
