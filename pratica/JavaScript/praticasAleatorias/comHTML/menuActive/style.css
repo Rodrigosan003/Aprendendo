@@ -48,3 +48,19 @@ section {
     height: 100vh;
     padding: 80px 0;
 }
+
+.home {
+    background: blue;
+}
+
+.about {
+    background: aquamarine;
+}
+
+.service {
+    background: green;
+}
+
+.contact {
+    background: greenyellow;
+}
