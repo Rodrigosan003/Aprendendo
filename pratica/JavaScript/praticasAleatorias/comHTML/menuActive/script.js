@@ -1,4 +1,4 @@
-let menu = document.querySelectorAll("a");
+let menu = document.querySelector("a");
 
 // menu.addEventListener("click", () => {
 //     menu.classList.toggle("active")
