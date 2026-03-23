@@ -1,9 +1,2 @@
-let menu = document.querySelector("a");
+let links = document.querySelectorAll("nav a");
 
-// menu.addEventListener("click", () => {
-//     menu.classList.toggle("active")
-// })
-
-menu.onclick = () => {
-    menu.classList.toggle("active");
-}
