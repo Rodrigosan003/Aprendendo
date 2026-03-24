@@ -33,3 +33,7 @@ PTR 11 - Troca de cor
 PTR 12 - Troca de imagens
 
 PTR 12.1 - Troca de imagens - React.JS
+
+PTR 13 - NavBarResposiva
+
+PTR 14 - Calculadora
