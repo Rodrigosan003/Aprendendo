@@ -71,3 +71,9 @@ section {
     background: greenyellow;
 }
 
+@media (min-width: 1200px) {
+    .header {
+        padding: 0 220px;
+    }
+}
+
