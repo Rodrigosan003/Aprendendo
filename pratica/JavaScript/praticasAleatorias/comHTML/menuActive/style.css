@@ -26,6 +26,12 @@ html {
     font-weight: 600;
 }
 
+.menu i {
+    font-size: 30px;
+    color: aqua;
+    display: none;
+}
+
 .nav {
     display: flex;
     align-items: center;
