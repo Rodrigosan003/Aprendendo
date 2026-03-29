@@ -1,5 +1,6 @@
 let links = document.querySelectorAll("nav a");
 let menu = document.querySelector("#menu");
+console.log(menu);
 
 links.forEach((link) => {
     link.addEventListener("click", () => {
