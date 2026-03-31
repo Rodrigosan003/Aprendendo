@@ -8,6 +8,7 @@ public class Main {
         // Tipos primitivos - Variáveis.
 
         int idade = 25;
+        long quantidadeDeCachorros = 10L;
         double salarioMensal = 4500.00;
         char genero = 'M';
         boolean empregadoJava = true;
