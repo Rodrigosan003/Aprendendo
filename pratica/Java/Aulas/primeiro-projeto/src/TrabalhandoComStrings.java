@@ -7,7 +7,7 @@ public class TrabalhandoComStrings {
         boolean saoIguais = nome.equals(nomeDois);
 
 
-        System.out.println("Olá " + nome + " seu nome tem " + tamanhoString + " caracteres.");
+        System.out.println("Olá " + nome.toUpperCase() + " seu nome tem " + tamanhoString + " caracteres.");
         System.out.println("Os nomes são iguais: " + saoIguais);
     }
 }
