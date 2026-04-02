@@ -7,5 +7,7 @@ public class ExpressoesComparativas {
         System.out.println(pao != acucar);
         System.out.println(pao > acucar);
         System.out.println(pao < acucar);
+        System.out.println(pao >= acucar);
+        System.out.println(pao <= acucar);
     }
 }
