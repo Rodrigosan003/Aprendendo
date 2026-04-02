@@ -9,13 +9,24 @@ public class EstruturaIfElse {
 //            System.out.println("Você é menor de idade.");
 //        }
 
-        boolean estaChovendo = true;
+//        boolean estaChovendo = true;
+//
+//        if (!estaChovendo) {
+//            System.out.println("Vamos sair para passear.");
+//        }
+//        else {
+//            System.out.println("Vamos ficar em casa.");
+//        }
 
-        if (!estaChovendo) {
-            System.out.println("Vamos sair para passear.");
+        boolean temDinheiro = true;
+        boolean temCartao = true;
+
+        if (temDinheiro && temCartao) {
+            System.out.println("Pede um ifood e um zé delivery.");
         }
-        else {
-            System.out.println("Vamos ficar em casa.");
+        else if ( temDinheiro || temCartao) {
+            System.out.println("Pede um ifood.");
         }
+        else System.out.println("Não pede nada.");
     }
 }
