@@ -11,5 +11,9 @@ public class EntradaSaidaDeDados {
         System.out.println("Olá, digite o seu nome: ");
         String nome = scanner.nextLine();
         System.out.println("Nome: " + nome);
+
+        System.out.println("Digite sua idade: ");
+        int idade = scanner.nextInt();
+        System.out.println("Idade: " + idade);
     }
 }
