@@ -10,5 +10,6 @@ public class EntradaSaidaDeDados {
 
         System.out.println("Olá, digite o seu nome: ");
         String nome = scanner.nextLine();
+        System.out.println("Nome: " + nome);
     }
 }
