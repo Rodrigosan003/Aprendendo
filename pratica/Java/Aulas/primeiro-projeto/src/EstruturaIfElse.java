@@ -27,6 +27,10 @@ public class EstruturaIfElse {
         else if ( temDinheiro || temCartao) {
             System.out.println("Pede um ifood.");
         }
-        else System.out.println("Não pede nada.");
+        else {
+            System.out.println("Não pede nada.");
+        }
+
+        String mensagem = (temDinheiro) ? "Pede um ifood." : "Come o que tem em casa.";
     }
 }
