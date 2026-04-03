@@ -32,5 +32,6 @@ public class EstruturaIfElse {
         }
 
         String mensagem = (temDinheiro) ? "Pede um ifood." : "Come o que tem em casa.";
+        System.out.println(mensagem);
     }
 }
