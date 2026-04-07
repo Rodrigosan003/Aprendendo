@@ -20,7 +20,7 @@ public class Main {
             System.out.println("Você está na juventude. Cuide da sua capacitação pessoa.");
         } else if (idade < 18) {
             System.out.println("Adolecente!!! Só estude e se qualifique.");
-        } else if (idade < 10) {
+        } else if (idade < 10 && idade > 1) {
             System.out.println("Criança!!! Vá brincar com coisas saldáveis.");
         } else {
             System.out.println("Por favor... Digite uma idade válida!!!");
