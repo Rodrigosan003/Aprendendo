@@ -20,12 +20,10 @@ public class Main {
             System.out.println("Você está no Alge. Aproveite para se cuidar bastante.");
         } else if (idade < 30 && idade >= 18) {
             System.out.println("Você está na juventude. Cuide da sua capacitação pessoa.");
-        } else if (idade < 18) {
+        } else if (idade < 18 && idade >= 10) {
             System.out.println("Adolecente!!! Só estude e se qualifique.");
-        } else if (idade < 10 && idade > 1) {
-            System.out.println("Criança!!! Vá brincar com coisas saldáveis.");
         } else {
-
+            System.out.println("Criança!!! Vá brincar com coisas saldáveis.");
         }
     }
 }
