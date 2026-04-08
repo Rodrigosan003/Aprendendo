@@ -13,7 +13,7 @@ public class Main {
         } else if (idade > 130) {
             System.out.println("Surpreendente!!! Você ainda existe?");
         } else if (idade <= 129 && idade >= 100) {
-            System.out.println("Parabéns por chegar até aqui!!! Você tem " + "anos. Você é uma raridade.");
+            System.out.println("Parabéns por chegar até aqui!!! Você tem " + idade + " anos. Você é uma raridade.");
         } else if (idade >= 60) {
             System.out.println("Você é um idoso. Se cuide.");
         } else if (idade < 60 && idade >= 30) {
