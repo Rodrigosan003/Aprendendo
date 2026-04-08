@@ -10,7 +10,7 @@ public class Main {
         // Verificação
         if (idade <= 0) {
             System.out.println("Por favor... Digite uma idade válida!!!");
-        } else if (idade > 130) {
+        } else if (idade >= 130) {
             System.out.println("Surpreendente!!! Você ainda existe?");
         } else if (idade <= 129 && idade >= 100) {
             System.out.println("Parabéns por chegar até aqui!!! Você tem " + idade + " anos. Você é uma raridade.");
