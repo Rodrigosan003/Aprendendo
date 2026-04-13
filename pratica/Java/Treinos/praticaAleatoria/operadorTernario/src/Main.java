@@ -3,5 +3,7 @@ public class Main {
         int nota = 7;
 
         String status = (nota >= 7) ? "Aprovado" : "Reprovado";
+
+        System.out.println(status);
     }
 }
