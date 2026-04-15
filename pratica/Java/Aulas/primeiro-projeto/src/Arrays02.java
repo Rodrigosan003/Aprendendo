@@ -1,6 +1,6 @@
 public class Arrays02 {
     public static void main(String[] args) {
-     
+
 
         int [] idades = new int[3];
 
