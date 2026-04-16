@@ -9,5 +9,9 @@ public class Arrays04 {
             System.out.println(numeros2[i]);
             // System.out.println(numeros3[i]);
         }
+
+        for (int num : numeros3) {
+            System.out.println(num);
+        }
     }
 }
