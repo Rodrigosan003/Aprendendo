@@ -5,7 +5,9 @@ public class Arrays04 {
         int[] numeros3 = new int[] {1, 2, 3, 4, 5, 6};
 
         for (int i = 0; i < numeros2.length; i++) {
+            System.out.println(numeros[i]);
             System.out.println(numeros2[i]);
+            System.out.println(numeros3[i]);
         }
     }
 }
