@@ -1,5 +1,6 @@
 let res = document.querySelector("#res");
 
 function botao() {
-    alert("clicou");
+    // alert("clicou");
+    res.textContent = "Oie";
 }
