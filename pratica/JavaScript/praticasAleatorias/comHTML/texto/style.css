@@ -14,7 +14,8 @@ body {
 
 .container {
     background: rgba(0, 0, 0, 0.356);
-    height: 300px;
+    border-radius: 10px;
+    display: flex;
 }
 
 label {
