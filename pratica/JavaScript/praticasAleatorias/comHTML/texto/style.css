@@ -12,6 +12,11 @@ body {
     height: 100vh;
 }
 
+.container {
+    background: rgba(0, 0, 0, 0.356);
+    height: 300px;
+}
+
 label {
     font-size: 30px;
 }
