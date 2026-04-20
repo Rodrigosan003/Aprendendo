@@ -21,8 +21,15 @@ body {
     padding: 15px;
 }
 
+.inputs {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
 label {
     font-size: 30px;
+    margin-right: 5px;
 }
 
 input {
