@@ -10,6 +10,8 @@ public class ArraysMultidimensionais01 {
         dias[1][1] = 28;
         dias[1][2] = 31;
 
-        
+        for (int i = 0; i < dias.length; i++) {
+            
+        }
     }
 }
