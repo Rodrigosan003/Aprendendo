@@ -5,7 +5,10 @@
 }
 
 body {
-    background: aquamarine;
+    background-image: url(./pexels-indra-gunadi-1733647-10903308.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
