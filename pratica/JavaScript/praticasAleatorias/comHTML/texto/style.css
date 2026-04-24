@@ -52,4 +52,11 @@ button {
     margin-left: 10px;
     padding: 10px 10px;
     cursor: pointer;
+    font-size: 15px;
+}
+
+.res {
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 20px;
 }
