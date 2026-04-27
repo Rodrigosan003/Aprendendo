@@ -15,6 +15,10 @@ public class ArraysMultidimensionais01 {
                 System.out.println(dias[i][j]);
             }
         }
-        
+        for(int[] arrBase: dias){
+            for (int num: arrBase){
+                System.out.println(num);
+            }
+        }
     }
 }
