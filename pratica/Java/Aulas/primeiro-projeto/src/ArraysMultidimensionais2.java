@@ -5,10 +5,11 @@ public class ArraysMultidimensionais2 {
         arrayInt[0] = new int[2];
         arrayInt[1] = new int[3];
         arrayInt[2] = new int[6];
-        
+
         for (int[] arrayBase: arrayInt){
+            System.out.println("\n-------------");
             for (int num: arrayBase) {
-                System.out.println(num);
+                System.out.print(num);
             }
         }
     }
