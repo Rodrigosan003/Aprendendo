@@ -3,7 +3,7 @@ public class ArraysMultidimensionais2 {
         int[][] arrayInt = new int[3][];
         for (int[] arrayBase: arrayInt){
             for (int num: arrayBase) {
-                
+                System.out.println(num);
             }
         }
     }
