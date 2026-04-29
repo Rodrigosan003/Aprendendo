@@ -54,6 +54,12 @@ button {
     padding: 10px 10px;
     cursor: pointer;
     font-size: 15px;
+    transition: background 0.5s ease;
+}
+
+button:hover {
+    transform: scale(1.2);
+    background: rgb(0, 0, 70);
 }
 
 .res {
@@ -62,3 +68,4 @@ button {
     font-weight: bolder;
     margin-top: 20px;
 }
+

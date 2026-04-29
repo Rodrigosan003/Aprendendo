@@ -19,5 +19,6 @@ btn.addEventListener('click', () => {
     }
     res.textContent = entrada.value;
     entrada.value = "";
-})
+});
+
 
