@@ -13,6 +13,10 @@ let btn = document.querySelector("#btn");
 // Forma com o evento de click
 
 btn.addEventListener('click', () => {
+    if(entrada.value === "") {
+        alert("Digite algo no campo de entrada!");
+        return;
+    }
     res.textContent = entrada.value;
     entrada.value = "";
 })
