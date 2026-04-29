@@ -1,0 +1,72 @@
+IDEIAS DE MELHORIAS PARA PRATICAR
+===================================
+
+Este é um projeto simples de entrada de texto. Aqui estão algumas melhorias divididas por nível:
+
+---
+
+
+🟢 INICIANTE
+-------------
+
+1. Validação de entrada
+   - Impedir texto vazio ao clicar no botão
+
+2. Limitar caracteres
+   - Adicionar maxlength no input
+
+3. Limpar botão
+   - Adicionar um botão para limpar o resultado
+
+4. Contador de caracteres
+   - Mostrar quantos caracteres foram digitados
+
+
+---
+
+
+🟡 INTERMEDIÁRIO
+-----------------
+
+1. Enter para enviar
+   - Executar a ação ao pressionar Enter
+
+2. Histórico de textos
+   - Guardar os últimos 5 textos digitados
+
+3. Animação no resultado
+   - Fade-in ou slide ao exibir o texto
+
+4. Tema claro/escuro
+   - Alternar entre modos claro e escuro
+
+
+---
+
+
+🟠 AVANÇADO
+------------
+
+1. Salvar no localStorage
+   - Persistir os dados entre recarregamentos
+
+2. Tradução automática
+   - Usar API para traduzir o texto digitado
+
+3. Contagem de palavras
+   - Mostrar quantidade de palavras
+
+4. Exportar resultado
+   - Baixar o texto como arquivo .txt
+
+
+---
+
+
+🔴 DESAFIO EXTRA
+-----------------
+
+- Converter o projeto em uma SPA (Single Page Application)
+- Adicionar testes unitários com Jest ou Vitest
+- Implementar acessibilidade (ARIA, foco no teclado)
+- Criar uma versão responsiva para mobile
