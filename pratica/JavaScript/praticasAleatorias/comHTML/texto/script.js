@@ -1,6 +1,11 @@
 let res = document.querySelector("#res");
 let entrada = document.querySelector("#entrada");
 let btn = document.querySelector("#btn");
+let limpar = document.querySelector("#limpar");
+
+limpar.addEventListener('click', () => {
+    res.textContent = "";
+})
 
 // Forma com o onclick 
 
