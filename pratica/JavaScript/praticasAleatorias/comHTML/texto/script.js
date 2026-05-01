@@ -21,13 +21,4 @@ btn.addEventListener('click', () => {
     entrada.value = "";
 });
 
-btn.addEventListener('keydown', (event) => {
-    if (event.key === "Enter") {
-        if(entrada.value === "") {
-            alert("Digite algo no campo de entrada!");
-            return;
-        }
-        res.textContent = entrada.value;
-        entrada.value = "";
-    }
-})
+
