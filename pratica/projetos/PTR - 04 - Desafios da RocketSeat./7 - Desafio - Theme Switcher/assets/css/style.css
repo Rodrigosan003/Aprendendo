@@ -22,6 +22,7 @@
   width: 235.38px;
   background: var(--label);
   border-radius: 50px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .dark {
