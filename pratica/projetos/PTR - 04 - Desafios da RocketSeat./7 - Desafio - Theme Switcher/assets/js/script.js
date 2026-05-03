@@ -1,3 +1,0 @@
-function clicar() {
-  alert("Clicou");
-}
