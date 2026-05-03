@@ -23,3 +23,11 @@
   background: var(--label);
   border-radius: 50px;
 }
+
+.dark {
+  background: var(--dark);
+}
+
+.light {
+  background: var(--light);
+}
