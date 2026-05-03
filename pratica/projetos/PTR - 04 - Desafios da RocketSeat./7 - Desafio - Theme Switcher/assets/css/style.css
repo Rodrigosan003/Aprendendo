@@ -16,3 +16,10 @@
   align-items: center;
   justify-content: center;
 }
+
+.label {
+  height: 102px;
+  width: 235.38px;
+  background: var(--label);
+  border-radius: 50px;
+}
