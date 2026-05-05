@@ -16,31 +16,3 @@
   align-items: center;
   justify-content: center;
 }
-
-.label {
-  position: relative;
-  height: 102px;
-  width: 235.38px;
-  background: var(--label);
-  border-radius: 50px;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-}
-
-.light {
-  background: var(--light);
-}
-
-.light-btn {
-  height: 102px;
-  width: 235.38px;
-  border-radius: 50px;
-  position: absolute;
-  top: 8%;
-  left: 50%;
-  background-image: url(../images/ball.svg);
-  background-repeat: no-repeat;
-}
-
-.dark {
-  background: var(--dark);
-}
