@@ -19,9 +19,14 @@
 }
 
 .label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   height: 102px;
   width: 235.38px;
   background: var(--label);
+  border-radius: 50px;
 }
 
 .ball {
