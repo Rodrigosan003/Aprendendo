@@ -9,3 +9,8 @@
   --light: #f1f1f1;
   --label: #111;
 }
+
+.container {
+  height: 100vh;
+  background: var(--light);
+}
