@@ -17,3 +17,16 @@
   align-items: center;
   justify-content: center;
 }
+
+.label {
+  height: 102px;
+  width: 235.38px;
+  background: var(--label);
+}
+
+.ball {
+  height: 86.31px;
+  width: 86.31px;
+  background: var(--dark);
+  border-radius: 50%;
+}
