@@ -1,3 +1,5 @@
+let container = document.querySelector(".container");
+
 function teste() {
-    alert("Clicou!!!")
+    container.classList.toggle("dark-mode");
 }
