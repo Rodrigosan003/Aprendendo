@@ -45,6 +45,10 @@ img {
   position: absolute;
   height: 86.31px;
   width: 86.31px;
-  background: var(--dark);
+  background: var(--light);
   border-radius: 50%;
+}
+
+.dark-mode {
+  background: var(--dark);
 }
