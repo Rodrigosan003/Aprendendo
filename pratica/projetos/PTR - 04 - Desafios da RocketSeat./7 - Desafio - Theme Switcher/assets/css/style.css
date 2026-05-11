@@ -45,6 +45,8 @@ img {
 
 .ball {
   position: absolute;
+  left: 8px;
+  top: 8px;
   height: 86.31px;
   width: 86.31px;
   background: var(--light);
