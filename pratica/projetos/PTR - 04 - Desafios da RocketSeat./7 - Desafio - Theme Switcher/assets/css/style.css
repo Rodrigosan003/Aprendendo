@@ -30,6 +30,7 @@
   background: var(--label);
   border-radius: 50px;
   cursor: pointer;
+  transform: scale(1.5);
 }
 
 .ckb {
