@@ -56,3 +56,7 @@ img {
 .dark-mode {
   background: var(--dark);
 }
+
+.ckb:checked ~ .ball {
+  transform: translateX(130px);
+}
