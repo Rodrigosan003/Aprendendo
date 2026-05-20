@@ -33,3 +33,17 @@
     background: gray;
     border: 2px solid blue;
 }
+
+#red {
+    color: white;
+    background: red;
+    border: 2px solid red;
+    transition: .5s ease;
+}
+
+#red:hover {
+    color: red;
+    background: gray;
+    border: 2px solid red;
+}
+
