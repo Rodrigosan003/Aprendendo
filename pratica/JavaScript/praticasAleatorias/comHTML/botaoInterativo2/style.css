@@ -9,8 +9,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px;
-    background: gray;
+    padding: 150px;
+    background: white;
 }
 
 .btn {
@@ -30,7 +30,7 @@
 
 #blue:hover {
     color: blue;
-    background: gray;
+    background: white;
     border: 2px solid blue;
 }
 
@@ -43,7 +43,7 @@
 
 #red:hover {
     color: red;
-    background: gray;
+    background: white;
     border: 2px solid red;
 }
 
@@ -56,6 +56,19 @@
 
 #black:hover {
     color: black;
-    background: gray;
+    background: white;
     border: 2px solid black;
+}
+
+#green {
+    color: white;
+    background: green;
+    border: 2px solid green;
+    transition: .5s ease;
+}
+
+#green:hover {
+    color: green;
+    background: white;
+    border: 2px solid green;
 }
