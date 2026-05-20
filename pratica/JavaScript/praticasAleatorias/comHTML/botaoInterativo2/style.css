@@ -47,3 +47,15 @@
     border: 2px solid red;
 }
 
+#black {
+    color: white;
+    background: black;
+    border: 2px solid black;
+    transition: .5s ease;
+}
+
+#black:hover {
+    color: black;
+    background: gray;
+    border: 2px solid black;
+}
