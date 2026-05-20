@@ -15,4 +15,21 @@
 
 .btn {
     padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#blue {
+    color: white;
+    background: blue;
+    border: 2px solid blue;
+    transition: .5s ease;
+}
+
+#blue:hover {
+    color: blue;
+    background: gray;
+    border: 2px solid blue;
 }
