@@ -8,3 +8,15 @@ let green = document.querySelector("#green");
 blue.addEventListener("click", () => {
     container.classList.toggle("blue");
 });
+
+red.addEventListener("click", () => {
+    container.classList.toggle("red");
+});
+
+black.addEventListener("click", () => {
+    container.classList.toggle("black");
+});
+
+green.addEventListener("click", () => {
+    container.classList.toggle("green");
+});
