@@ -5,3 +5,6 @@ let red = document.querySelector("#red");
 let black = document.querySelector("#black");
 let green = document.querySelector("#green");
 
+blue.addEventListener("click", () => {
+    container.classList.toggle("blue");
+});
