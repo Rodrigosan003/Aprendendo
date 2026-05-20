@@ -13,6 +13,22 @@
     background: white;
 }
 
+.blue {
+    background: blue;
+}
+
+.red {
+    background: red;
+}
+
+.black {
+    background: black;
+}
+
+.green {
+    background: green;
+}
+
 .btn {
     padding: 15px;
     border: none;
