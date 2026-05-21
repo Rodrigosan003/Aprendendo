@@ -1,22 +1,39 @@
+// let container = document.querySelector(".container");
+
+// let blue = document.querySelector("#blue");
+// let red = document.querySelector("#red");
+// let black = document.querySelector("#black");
+// let green = document.querySelector("#green");
+
+// blue.addEventListener("click", () => {
+//     container.classList.toggle("blue");
+// });
+
+// red.addEventListener("click", () => {
+//     container.classList.toggle("red");
+// });
+
+// black.addEventListener("click", () => {
+//     container.classList.toggle("black");
+// });
+
+// green.addEventListener("click", () => {
+//     container.classList.toggle("green");
+// });
+
 let container = document.querySelector(".container");
 
-let blue = document.querySelector("#blue");
-let red = document.querySelector("#red");
-let black = document.querySelector("#black");
-let green = document.querySelector("#green");
+let botoes = document.querySelectorAll(".btn");
 
-blue.addEventListener("click", () => {
-    container.classList.toggle("blue");
-});
+const cores = ["blue", "red", "black", "green"];
 
-red.addEventListener("click", () => {
-    container.classList.toggle("red");
-});
+botoes.forEach(botao => {
+    botao.addEventListener("click", () => {
+        
+        // Remove todas as classes de cor
+        container.classList.remove(...cores);
 
-black.addEventListener("click", () => {
-    container.classList.toggle("black");
-});
-
-green.addEventListener("click", () => {
-    container.classList.toggle("green");
+        // Adiciona a classe do botão clicado
+        container.classList.add(botao.id);
+    });
 });
