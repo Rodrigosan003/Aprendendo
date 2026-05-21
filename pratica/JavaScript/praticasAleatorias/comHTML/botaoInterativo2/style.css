@@ -35,6 +35,7 @@
     border-radius: 10px;
     font-size: 15px;
     font-weight: 700;
+    transition: .3s ease;
 }
 
 #blue {
@@ -87,4 +88,9 @@
     color: green;
     background: white;
     border: 2px solid green;
+}
+
+.btn.active {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
 }
