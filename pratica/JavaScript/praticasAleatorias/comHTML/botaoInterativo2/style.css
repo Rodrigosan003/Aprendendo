@@ -15,18 +15,23 @@
 
 .blue {
     background: blue;
+    transition: .5s ease;
+
 }
 
 .red {
     background: red;
+    transition: .5s ease;
 }
 
 .black {
     background: black;
+    transition: .5s ease;
 }
 
 .green {
     background: green;
+    transition: .5s ease;
 }
 
 .btn {
