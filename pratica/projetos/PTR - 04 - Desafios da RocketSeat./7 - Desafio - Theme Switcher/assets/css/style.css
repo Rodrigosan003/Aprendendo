@@ -15,7 +15,8 @@
   background: var(--light);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
+  flex-direction: column;
   transition: background .2s linear;
 }
 
@@ -59,6 +60,7 @@ img {
 
 .dark-mode {
   background: var(--dark);
+  color: var(--light);
 }
 
 .ckb:checked ~ .ball {
