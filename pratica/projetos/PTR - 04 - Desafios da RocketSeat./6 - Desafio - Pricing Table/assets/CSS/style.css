@@ -222,3 +222,8 @@ button.button-pro {
   margin-top: 2.625rem;
   transition: 0.3s ease-in-out;
 }
+
+button.button-pro:hover {
+  color: var(--page-background);
+  background: var(--blue);
+}
