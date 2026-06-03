@@ -2,7 +2,7 @@
 
 # 🎯 Treino de CSS Flexbox
 
-- [-] 1. Crie um layout de caixas lado a lado usando `display: flex`.
+- [x] 1. Crie um layout de caixas lado a lado usando `display: flex`.
 - [ ] 2. Faça um menu de navegação horizontal usando Flexbox.
 - [ ] 3. Centralize vertical e horizontalmente um elemento na página usando Flexbox.
 - [ ] 4. Crie um layout de três colunas responsivo usando Flexbox.
