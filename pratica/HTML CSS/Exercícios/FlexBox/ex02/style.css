@@ -18,3 +18,15 @@
     font-size: 30px;
     font-weight: 700;
 }
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav a {
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+}
