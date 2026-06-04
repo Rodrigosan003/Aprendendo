@@ -4,3 +4,15 @@
     box-sizing: border-box;
 }
 
+.header {
+    height: 80px;
+    background: rgb(0, 0, 34);
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: aliceblue;
+}
