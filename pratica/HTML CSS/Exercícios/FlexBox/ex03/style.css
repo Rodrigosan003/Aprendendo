@@ -6,4 +6,16 @@
 
 body {
     background: rgb(162, 162, 255);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    background: rgb(68, 68, 158);
 }
