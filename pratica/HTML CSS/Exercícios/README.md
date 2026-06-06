@@ -5,7 +5,7 @@
 - [x] 1. Crie um layout de caixas lado a lado usando `display: flex`.
 - [x] 2. Faça um menu de navegação horizontal usando Flexbox.
 - [x] 3. Centralize vertical e horizontalmente um elemento na página usando Flexbox.
-- [ ] 4. Crie um layout de três colunas responsivo usando Flexbox.
+- [x] 4. Crie um layout de três colunas responsivo usando Flexbox.
 - [ ] 5. Implemente um layout de grade simples usando Flexbox.
 - [ ] 6. Faça um sistema de cards responsivo usando Flexbox.
 - [ ] 7. Crie um cabeçalho fixo na parte superior da página usando Flexbox.
@@ -36,7 +36,7 @@
 - [x] Exercício 1
 - [x] Exercício 2
 - [x] Exercício 3
-- [ ] Exercício 4
+- [x] Exercício 4
 - [ ] Exercício 5
 - [ ] Exercício 6
 - [ ] Exercício 7
