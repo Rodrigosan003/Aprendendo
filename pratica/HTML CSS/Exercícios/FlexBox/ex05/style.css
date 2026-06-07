@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: aquamarine;
+    height: 100vh;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
