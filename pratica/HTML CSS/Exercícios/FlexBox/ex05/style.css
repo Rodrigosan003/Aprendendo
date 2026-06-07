@@ -8,7 +8,14 @@
     background: aquamarine;
     height: 100vh;
     padding: 50px;
-    display: flex;
-    justify-content: space-evenly;
 }
 
+.colun{
+    display: flex;
+}
+
+.row {
+    height: 100px;
+    width: 100px;
+    background: blue;
+}
