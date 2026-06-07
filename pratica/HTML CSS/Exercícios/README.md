@@ -6,7 +6,7 @@
 - [x] 2. Faça um menu de navegação horizontal usando Flexbox.
 - [x] 3. Centralize vertical e horizontalmente um elemento na página usando Flexbox.
 - [x] 4. Crie um layout de três colunas responsivo usando Flexbox.
-- [ ] 5. Implemente um layout de grade simples usando Flexbox.
+- [x] 5. Implemente um layout de grade simples usando Flexbox.
 - [ ] 6. Faça um sistema de cards responsivo usando Flexbox.
 - [ ] 7. Crie um cabeçalho fixo na parte superior da página usando Flexbox.
 - [ ] 8. Faça um layout de lista com ícones e texto usando Flexbox.
@@ -37,7 +37,7 @@
 - [x] Exercício 2
 - [x] Exercício 3
 - [x] Exercício 4
-- [ ] Exercício 5
+- [x] Exercício 5
 - [ ] Exercício 6
 - [ ] Exercício 7
 - [ ] Exercício 8
