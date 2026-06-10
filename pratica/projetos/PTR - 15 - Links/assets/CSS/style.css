@@ -5,6 +5,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
+:root {
+  --bg-color: #1e1f29;
+  --second-bg-color: #4b4d63;
+  --text-color: #f3f3f3;
+  --main-color: #45b8ed;
+}
+
 .container {
     height: 100vh;
     background: url(../images/background.jpg) center/cover no-repeat;
