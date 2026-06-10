@@ -24,3 +24,8 @@ img {
     height: 150px;
     border-radius: 50%;
 }
+
+h1 {
+    color: var(--text-color);
+    
+}
