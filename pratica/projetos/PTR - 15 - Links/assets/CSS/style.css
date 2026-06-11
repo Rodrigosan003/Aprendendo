@@ -26,7 +26,7 @@
     position: absolute;
     inset: 0;
     background: url(../images/background.jpg) center/cover no-repeat;
-    filter: blur(8px);
+    filter: blur(10px);
     transform: scale(1.1); /* evita bordas vazias após o blur */
     z-index: -1;
 }
