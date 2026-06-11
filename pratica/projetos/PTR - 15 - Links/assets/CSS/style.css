@@ -58,3 +58,7 @@ h1 {
 h1 span {
     color: var(--main-color);
 }
+
+h2 {
+    color: var(--text-color);
+}
