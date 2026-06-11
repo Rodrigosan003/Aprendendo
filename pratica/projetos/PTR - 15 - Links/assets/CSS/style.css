@@ -33,8 +33,7 @@
 }
 
 .links-container {
-    padding: 24px;
-    /* background: var(--second-bg-color); */
+    padding: 24px;  
     background: var(--bg-color-transparence);
     border-radius: 25px;
     display: flex;
