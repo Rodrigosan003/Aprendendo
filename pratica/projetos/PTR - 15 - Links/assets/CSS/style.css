@@ -7,7 +7,7 @@
 
 :root {
   --bg-color: #1e1f29;
-  --bg-color-transparence: #1e1f2991;
+  --bg-color-transparence: #1e1f2998;
   --second-bg-color: #4b4d63;
   --text-color: #f3f3f3;
   --main-color: #45b8ed;
@@ -34,7 +34,8 @@
 
 .links-container {
     padding: 24px;
-    background: var(--second-bg-color);
+    /* background: var(--second-bg-color); */
+    background: var(--bg-color-transparence);
     border-radius: 25px;
     display: flex;
     align-items: center;
