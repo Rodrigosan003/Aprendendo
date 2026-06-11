@@ -13,11 +13,22 @@
 }
 
 .container {
+    position: relative;
     height: 100vh;
-    background: url(../images/background.jpg) center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url(../images/background.jpg) center/cover no-repeat;
+    filter: blur(8px);
+    transform: scale(1.1); /* evita bordas vazias após o blur */
+    z-index: -1;
 }
 
 .links-container {
