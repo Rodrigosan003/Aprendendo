@@ -35,6 +35,9 @@
     padding: 24px;
     background: var(--second-bg-color);
     border-radius: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 img {
