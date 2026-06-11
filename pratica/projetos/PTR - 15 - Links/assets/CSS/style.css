@@ -40,6 +40,12 @@
     flex-direction: column;
 }
 
+.profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 img {
     height: 112px;
     border-radius: 50%;
