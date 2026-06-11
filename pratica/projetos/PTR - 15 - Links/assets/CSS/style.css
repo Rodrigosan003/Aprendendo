@@ -20,6 +20,11 @@
     justify-content: center;
 }
 
+.links-container {
+    padding: 24px;
+    background: var(--second-bg-color);
+}
+
 img {
     height: 112px;
     border-radius: 50%;
