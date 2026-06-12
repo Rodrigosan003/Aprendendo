@@ -67,3 +67,24 @@ h2 {
 h2 span {
     color: var(--main-color);
 }
+
+.links a {
+  border-radius: 5rem;
+  padding: 2rem 3.5rem;
+  margin: 2rem 0;
+  border: 0.2rem solid var(--main-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--main-color);
+  font-size: 3rem;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.links a:hover {
+  background: var(--main-color);
+  color: var(--bg-color);
+  box-shadow: 0 0 1rem var(--main-color);
+  transform: scale(1.02);
+}
