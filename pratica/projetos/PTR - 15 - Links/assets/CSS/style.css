@@ -33,6 +33,7 @@
 }
 
 .links-container {
+  width: 35%;
   padding: 24px;
   background: var(--bg-color-transparence);
   border-radius: 25px;
@@ -78,7 +79,7 @@ h2 span {
   align-items: center;
   justify-content: space-between;
   color: var(--main-color);
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 600;
   transition: 0.2s ease;
 }
