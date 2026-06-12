@@ -84,6 +84,10 @@ h2 span {
   transition: 0.2s ease;
 }
 
+a i {
+    margin-right: 2rem ;
+}
+
 .links a:hover {
   background: var(--main-color);
   color: var(--bg-color);
