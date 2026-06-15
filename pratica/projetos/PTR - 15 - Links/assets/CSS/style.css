@@ -64,6 +64,7 @@ h1 span {
 }
 
 h2 {
+  margin-top: -5px;
   color: var(--text-color);
 }
 
