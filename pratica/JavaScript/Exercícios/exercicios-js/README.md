@@ -4,22 +4,22 @@
 
 ### 🟢 **Básico**
 
-* [ ] **Ex01** – Exibir "Hello, World!" no console
-* [ ] **Ex02** – Função que soma dois números
-* [ ] **Ex03** – Verificar se um número é par ou ímpar
-* [ ] **Ex04** – Saudação personalizada com nome
-* [ ] **Ex05** – Calcular o fatorial de um número
-* [ ] **Ex06** – Converter Celsius para Fahrenheit
-* [ ] **Ex07** – Retornar o último elemento de um array
-* [ ] **Ex08** – Verificar se uma string contém uma palavra
-* [ ] **Ex09** – Verificar se um número é múltiplo de 3 ou 5
-* [ ] **Ex10** – Imprimir FizzBuzz de 1 a 100
+* [x] **Ex01** – Exibir "Hello, World!" no console
+* [x] **Ex02** – Função que soma dois números
+* [x] **Ex03** – Verificar se um número é par ou ímpar
+* [x] **Ex04** – Saudação personalizada com nome
+* [x] **Ex05** – Calcular o fatorial de um número
+* [x] **Ex06** – Converter Celsius para Fahrenheit
+* [x] **Ex07** – Retornar o último elemento de um array
+* [x] **Ex08** – Verificar se uma string contém uma palavra
+* [x] **Ex09** – Verificar se um número é múltiplo de 3 ou 5
+* [x] **Ex10** – Imprimir FizzBuzz de 1 a 100
 
 ---
 
 ### 🟡 **Intermediário**
 
-* [ ] **Ex01** – Inverter uma string
+* [x] **Ex01** – Inverter uma string
 * [ ] **Ex02** – Verificar se uma palavra é palíndromo
 * [ ] **Ex03** – Calcular a média de um array de números
 * [ ] **Ex04** – Retornar o maior e o menor número de um array
