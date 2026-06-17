@@ -5,4 +5,4 @@ function inverteString(str) {
 }
 
 // Exemplo de uso:
-// console.log(inverteString('Olá mundo'));
+console.log(inverteString('Olá mundo'));
