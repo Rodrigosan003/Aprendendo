@@ -8,8 +8,21 @@
     height: 80px;
     width: 100%;
     background: black;
+    position: fixed;
 }
 
 section {
     height: 100vh;
+}
+
+.home {
+    background: blue;
+}
+
+.about {
+    background: orange;
+}
+
+.contact {
+    background: greenyellow;
 }
