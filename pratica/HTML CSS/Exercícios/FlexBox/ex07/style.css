@@ -25,6 +25,11 @@
     gap: 20px;
 }
 
+.nav a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
 section {
     height: 100vh;
 }
