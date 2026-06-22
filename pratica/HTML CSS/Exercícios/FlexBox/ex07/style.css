@@ -7,8 +7,12 @@
 .header {
     height: 80px;
     width: 100%;
+    padding: 0 50px;
     background: black;
     position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 section {
