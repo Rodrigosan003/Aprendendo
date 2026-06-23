@@ -7,3 +7,12 @@
 html {
     scroll-behavior: smooth;
 }
+
+.container {
+    height: 100vh;
+    background: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
