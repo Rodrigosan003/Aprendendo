@@ -16,3 +16,10 @@ html {
     justify-content: space-evenly;
     flex-direction: column;
 }
+
+ul li {
+    list-style-type: none;
+    display: flex;
+    gap: 5px;
+    font-size: 20px;
+}
