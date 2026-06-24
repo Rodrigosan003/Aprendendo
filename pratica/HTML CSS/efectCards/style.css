@@ -13,3 +13,17 @@ h1 {
     text-align: center;
 }
 
+.cards-content {
+    padding: 0 50px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cards {
+    background: blue;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
