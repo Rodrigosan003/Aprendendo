@@ -27,3 +27,13 @@ section {
 .about {
     background: aqua;
 }
+
+.contact {
+    background: aquamarine;
+}
+
+.footer {
+    background: black;
+    height: 100px;
+    display: flex;
+}
