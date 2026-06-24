@@ -10,7 +10,7 @@
 - [x] 6. Faça um sistema de cards responsivo usando Flexbox.
 - [x] 7. Crie um cabeçalho fixo na parte superior da página usando Flexbox.
 - [x] 8. Faça um layout de lista com ícones e texto usando Flexbox.
-- [ ] 9. Implemente um layout de footer que permaneça na parte inferior da página usando Flexbox.
+- [x] 9. Implemente um layout de footer que permaneça na parte inferior da página usando Flexbox.
 - [ ] 10. Crie um layout de galeria de imagens responsivo usando Flexbox.
 
 ---
@@ -41,7 +41,7 @@
 - [x] Exercício 6
 - [x] Exercício 7
 - [x] Exercício 8
-- [ ] Exercício 9
+- [x] Exercício 9
 - [ ] Exercício 10
 
 ## Grid
