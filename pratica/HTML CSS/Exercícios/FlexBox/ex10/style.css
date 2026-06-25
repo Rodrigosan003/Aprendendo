@@ -8,6 +8,14 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    padding: 50px;
+    background: gray;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
 img {
     height: 200px;
     border: 2px solid black;
