@@ -4,3 +4,8 @@ for (let numero of numeros) {
   console.log(numero);
 }
 
+let nome = "Rodrigo";
+
+for (let letra of nome) {
+  console.log(letra);
+}
