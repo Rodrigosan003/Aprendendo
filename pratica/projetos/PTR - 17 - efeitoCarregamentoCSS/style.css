@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(82, 79, 79);
+}
+
+.loading1 {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: 10px solid #161717;
+    border-top: 10px solid #12FFF7;
+    border-radius: 50%;
+    animation: loading1 2s infinite linear;
+}
+
+@keyframes loading1 {
+    to {
+        transform: rotate(360deg);
+    }
+}
