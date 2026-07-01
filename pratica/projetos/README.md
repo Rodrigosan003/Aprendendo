@@ -41,3 +41,5 @@ PTR 14 - Calculadora
 PTR 15 - Links
 
 PTR 16 - menuHamburguer
+
+PTR 17 - efeitoCarregamentoCSS
