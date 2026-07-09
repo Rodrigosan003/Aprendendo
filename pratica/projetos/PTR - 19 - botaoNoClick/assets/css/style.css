@@ -18,5 +18,7 @@ h1 {
 }
 
 button {
-    
+    border: none;
+    background: green;
+    color: aliceblue;
 }
