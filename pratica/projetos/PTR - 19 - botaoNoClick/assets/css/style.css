@@ -12,6 +12,12 @@ body {
     height: 100vh;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 h1 {
     color: aliceblue;
     margin-bottom: 20px;
@@ -21,4 +27,6 @@ button {
     border: none;
     background: green;
     color: aliceblue;
+    padding: 5px 10px;
+    
 }
