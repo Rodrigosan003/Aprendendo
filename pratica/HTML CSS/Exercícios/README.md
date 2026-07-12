@@ -17,7 +17,7 @@
 
 # 🎯 Treino de CSS Grid
 
-- [ ] 1. Crie um layout de grade básico com 3 colunas usando `display: grid`.
+- [x] 1. Crie um layout de grade básico com 3 colunas usando `display: grid`.
 - [ ] 2. Faça um layout de blog responsivo usando CSS Grid.
 - [ ] 3. Crie uma galeria de imagens usando CSS Grid.
 - [ ] 4. Implemente um layout de dashboard com várias seções usando CSS Grid.
