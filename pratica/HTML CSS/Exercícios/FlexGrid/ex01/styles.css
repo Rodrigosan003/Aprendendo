@@ -4,9 +4,16 @@
     box-sizing: border-box;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
 .itens {
     height: 150px;
     width: 150px;
     background: aqua;
     border-radius: 15px;
+    text-align: center;
 }
