@@ -46,7 +46,7 @@
 
 ## Grid
 - [x] Exercício 1
-- [ ] Exercício 2
+- [x] Exercício 2
 - [ ] Exercício 3
 - [ ] Exercício 4
 - [ ] Exercício 5
