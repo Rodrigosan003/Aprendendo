@@ -14,29 +14,25 @@ body {
 header, nav, main, aside, footer {
   background: #a1a1a1;
   display: flex;
+  margin: 3px;
 }
 
 header {
-  margin: 3px;
   flex: 1 1 100vw;
 }
 
 nav {
-  margin: 3px;
   flex: 1 1 200px;
 }
 
 main {
-  margin: 3px;
   flex: 20 1 500px;
 }
 
 aside {
-  margin: 3px;
   flex: 1 1 200px;
 }
 
 footer {
-  margin: 3px;
   flex: 1 1 100vw;
 }
