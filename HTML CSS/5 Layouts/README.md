@@ -1,7 +1,7 @@
 # 5 Layouts mais comuns na web
 
 - [x] 1
-- [ ] 2
+- [x] 2
 - [ ] 3
 - [ ] 4
 - [ ] 5
