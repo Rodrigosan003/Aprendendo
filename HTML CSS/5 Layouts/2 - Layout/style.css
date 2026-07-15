@@ -28,7 +28,7 @@ nav {
 main {
   display: flex;
   margin: 3px;
-  flex: 1 1 100vw;
+  flex: 20 1 500px;
   background: #a1a1a1;
 }
 
