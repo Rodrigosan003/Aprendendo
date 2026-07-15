@@ -55,4 +55,8 @@ footer {
   nav {
     height: 100px;
   }
+
+  main {
+    height: calc(100vh - 436px);
+  }
 }
