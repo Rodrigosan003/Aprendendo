@@ -21,7 +21,7 @@ header {
 nav {
   display: flex;
   margin: 3px;
-  flex: 1 1 100vw;
+  flex: 1 1 200px;
   background: #a1a1a1;
 }
 
@@ -35,7 +35,7 @@ main {
 aside {
   display: flex;
   margin: 3px;
-  flex: 1 1 100vw;
+  flex: 1 1 200px;
   background: #a1a1a1;
 }
 
