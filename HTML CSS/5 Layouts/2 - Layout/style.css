@@ -19,6 +19,7 @@ header, nav, main, aside, footer {
 
 header {
   flex: 1 1 100vw;
+  height: 100px;
 }
 
 nav {
@@ -35,4 +36,5 @@ aside {
 
 footer {
   flex: 1 1 100vw;
+  height: 100px;
 }
