@@ -13,35 +13,30 @@ body {
 
 header, nav, main, aside, footer {
   background: #a1a1a1;
+  display: flex;
 }
 
 header {
-  display: flex;
   margin: 3px;
   flex: 1 1 100vw;
-  
 }
 
 nav {
-  display: flex;
   margin: 3px;
   flex: 1 1 200px;
 }
 
 main {
-  display: flex;
   margin: 3px;
   flex: 20 1 500px;
 }
 
 aside {
-  display: flex;
   margin: 3px;
   flex: 1 1 200px;
 }
 
 footer {
-  display: flex;
   margin: 3px;
   flex: 1 1 100vw;
 }
