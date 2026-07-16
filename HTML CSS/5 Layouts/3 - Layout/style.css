@@ -29,6 +29,11 @@ nav {
   justify-content: center;
 }
 
+nav a {
+  margin: 5%;
+  font-size: 20pt;
+}
+
 main {
   flex: 20 1 500px;
   height: calc(100vh - 330px);
