@@ -41,6 +41,11 @@ footer {
   height: 100px;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 @media only screen and (max-width: 923px) {
   main {
     height: calc(100vh - 436px);
