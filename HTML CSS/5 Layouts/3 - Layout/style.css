@@ -43,7 +43,7 @@ footer {
 
 @media only screen and (max-width: 923px) {
   main {
-    height: calc(100vh - 330px);
+    height: calc(100vh - 436px);
   }
 
   aside {
