@@ -45,3 +45,5 @@ PTR 16 - menuHamburguer
 PTR 17 - efeitoCarregamentoCSS
 
 PTR 18 - slideDeImagens
+
+PTR 19 - botaoNoClick
