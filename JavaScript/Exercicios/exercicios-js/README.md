@@ -21,7 +21,7 @@
 
 * [x] **Ex01** – Inverter uma string
 * [x] **Ex02** – Verificar se uma palavra é palíndromo
-* [ ] **Ex03** – Calcular a média de um array de números
+* [x] **Ex03** – Calcular a média de um array de números
 * [ ] **Ex04** – Retornar o maior e o menor número de um array
 * [ ] **Ex05** – Gerar sequência de Fibonacci até o N-ésimo termo
 * [ ] **Ex06** – Ordenar um array de strings
