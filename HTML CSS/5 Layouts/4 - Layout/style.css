@@ -83,6 +83,12 @@ a {
     display: block;
   }
 
+  #closeMenu {
+    position: fixed;
+    right: 15px;
+    top: 15px;
+  }
+
   nav {
     position: fixed;
     flex-direction: column;
@@ -92,5 +98,6 @@ a {
     align-items: center;
     justify-content: center;
     margin: 0;
+    display: none;
   }
 }
