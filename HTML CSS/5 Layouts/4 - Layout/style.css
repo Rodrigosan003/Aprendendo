@@ -89,5 +89,8 @@ a {
     width: 100vw;
     height: 100vh;
     background: rgba(255 , 255, 255, 0.8);
+    align-items: center;
+    justify-content: center;
+    margin: 0;
   }
 }
