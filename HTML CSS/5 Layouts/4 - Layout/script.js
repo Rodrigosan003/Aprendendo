@@ -13,5 +13,6 @@ closeMenu.addEventListener("click", () => {
   menu.style.right = (menu.offsetWidth * -1) + 'px';
   setTimeout(() => {
     menu.removeAttribute("style");
+    openMenu.removeAttribute('style');
   }, 200);
 });
