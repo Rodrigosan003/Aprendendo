@@ -83,6 +83,10 @@ a {
     display: block;
   }
 
+  #openMenu {
+    margin-left: auto;
+  }
+
   #closeMenu {
     position: fixed;
     right: 15px;
