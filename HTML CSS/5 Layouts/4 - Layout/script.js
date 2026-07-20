@@ -7,5 +7,7 @@ openMenu.addEventListener("click", () => {
 
 closeMenu.addEventListener("click", () => {
   menu.style.opacity = "0";
-  menu.removeAttribute("style");
+  setTimeout(() => {
+    menu.removeAttribute("style");
+  }, 200);
 });
