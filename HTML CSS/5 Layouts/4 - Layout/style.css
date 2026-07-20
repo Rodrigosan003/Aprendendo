@@ -34,13 +34,13 @@ nav {
 }
 
 nav a {
-  margin: 5%;
+  margin: 3%;
   font-size: 20pt;
 }
 
 main {
   flex: 20 1 500px;
-  height: calc(100vh - 330px);
+  height: calc(100vh - 224px);
 }
 
 aside {
@@ -59,7 +59,7 @@ a {
 
 @media only screen and (max-width: 923px) {
   main {
-    height: calc(100vh - 436px);
+    height: calc(100vh - 330px);
   }
 
   aside {
