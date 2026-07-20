@@ -1,6 +1,7 @@
 openMenu.addEventListener("click", () => {
   menu.style.display = "flex";
-  menu.style.right = menu.offsetWidth * -1 + "px";
+  menu.style.right = (menu.offsetWidth * -1) + "px";
+  openMenu.style.display = 'none';
   setTimeout(() => {
     menu.style.opacity = "1";
     menu.style.right = '0';
