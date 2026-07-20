@@ -30,6 +30,7 @@ header #logo {
 #openMenu, #closeMenu {
   border: none;
   background: none;
+  font-size: 30px;
 }
 
 nav {
