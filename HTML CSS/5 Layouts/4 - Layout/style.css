@@ -77,3 +77,15 @@ a {
     height: 100px;
   }
 }
+
+@media only screen and (max-width: 717px){
+  #openMenu, #closeMenu {
+    display: block;
+  }
+
+  nav {
+    position: fixed;
+    flex-direction: column;
+    width: 100%;
+  }
+}
