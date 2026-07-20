@@ -27,6 +27,11 @@ header #logo {
   background: #c9c9c9;
 }
 
+#openMenu, #closeMenu {
+  border: none;
+  background: none;
+}
+
 nav {
   flex: 1 1 100vw;
   align-items: center;
