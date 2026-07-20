@@ -1,7 +1,9 @@
 openMenu.addEventListener('click', () => {
     menu.style.display = 'flex';
+    menu.style.opacity = '1';
 })
 
 closeMenu.addEventListener('click', () => {
-    menu.removeAttribute('style')
+    menu.style.opacity = '0';
+    menu.removeAttribute('style');
 })
