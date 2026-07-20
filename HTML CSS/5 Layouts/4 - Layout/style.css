@@ -24,6 +24,7 @@ header {
 
 header #logo {
   flex: 0 1 200px;
+  background: #c9c9c9;
 }
 
 nav {
