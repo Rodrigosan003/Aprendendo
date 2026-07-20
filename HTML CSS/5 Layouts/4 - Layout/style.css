@@ -103,5 +103,6 @@ a {
     justify-content: center;
     margin: 0;
     display: none;
+    opacity: 0;
   }
 }
