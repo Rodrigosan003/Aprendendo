@@ -23,7 +23,6 @@ footer {
 
 header {
   flex: 1 1 100vw;
-  height: 100px;
 }
 
 header #logo {
