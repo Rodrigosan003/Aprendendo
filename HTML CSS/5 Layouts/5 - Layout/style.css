@@ -54,7 +54,6 @@ nav a {
 
 main {
   flex: 20 1 500px;
-  height: calc(100vh - 224px);
   flex-wrap: wrap;
   overflow: auto;
 }
@@ -72,7 +71,6 @@ aside {
 
 footer {
   flex: 1 1 100vw;
-  height: 100px;
 }
 
 a {
@@ -86,13 +84,11 @@ a {
   }
 
   main {
-    height: calc(100vh - 330px);
     order: 1;
   }
 
   aside {
     flex: 1 1 100vw;
-    height: 100px;
     order: 2;
   }
 
@@ -121,7 +117,6 @@ a {
     position: fixed;
     flex-direction: column;
     width: 100vw;
-    height: 100vh;
     background: rgba(255, 255, 255, 0.8);
     align-items: center;
     justify-content: center;
