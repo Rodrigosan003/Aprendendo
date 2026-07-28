@@ -11,4 +11,5 @@ body {
 .header {
     height: 80px;
     width: 100%;
+    background: rgb(0, 0, 90);
 }
