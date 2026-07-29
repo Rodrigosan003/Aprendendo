@@ -29,4 +29,6 @@
 .carrossel-track {
     display: flex;
     width: max-content;
+    animation: scroll 10s linear infinite;
 }
+
