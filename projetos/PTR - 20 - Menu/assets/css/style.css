@@ -11,5 +11,9 @@ body {
 .header {
     height: 80px;
     width: 100%;
+    padding: 0 50px;
     background: rgb(0, 0, 90);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
