@@ -17,3 +17,14 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+
+.logo {
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
