@@ -36,6 +36,6 @@ body {
     transition: .2s ease;
 }
 
-.nav a:hover {
+.nav a:hover, .active {
     color: #8585f7;
 }
