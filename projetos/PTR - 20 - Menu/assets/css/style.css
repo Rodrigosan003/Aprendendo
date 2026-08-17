@@ -24,6 +24,13 @@ body {
     font-weight: bolder;
 }
 
+.button {
+    background: none;
+    border: none;
+    color: aliceblue;
+    font-size: 30px;
+}
+
 .nav {
     display: flex;
     gap: 20px;
