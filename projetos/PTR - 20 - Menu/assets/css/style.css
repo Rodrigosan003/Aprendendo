@@ -8,10 +8,6 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    background: gray;
-}
-
 .header {
     position: fixed;
     height: 80px;
