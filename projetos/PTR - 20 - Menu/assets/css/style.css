@@ -56,3 +56,11 @@ body {
 .section {
     height: 100vh;
 }
+
+#inicio {
+    background: aqua;
+}
+
+#sobre {
+    background: yellow;
+}
