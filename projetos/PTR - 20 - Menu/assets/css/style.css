@@ -74,3 +74,29 @@ html {
     width: 100%;
     background: #00005a;
 }
+
+/* Responsivo */
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 617px) {
+  
+}
+
+@media (max-width: 450px) {
+
+}
+
+@media (max-width: 365px) {
+ 
+}
