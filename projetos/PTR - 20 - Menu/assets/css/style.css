@@ -49,6 +49,11 @@ html {
     color: #8585f7;
 }
 
+.nav-mobile {
+    display: flex;
+    gap: 20px;
+}
+
 .section {
     height: 100vh;
 }
@@ -78,7 +83,7 @@ html {
 /* Responsivo */
 
 @media (max-width: 1200px) {
-
+    
 }
 
 @media (max-width: 991px) {
@@ -86,7 +91,9 @@ html {
 }
 
 @media (max-width: 768px) {
-
+    .nav {
+        display: none;
+    }
 }
 
 @media (max-width: 617px) {
