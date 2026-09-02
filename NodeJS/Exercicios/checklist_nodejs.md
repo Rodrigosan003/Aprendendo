@@ -2,7 +2,7 @@
 
 ## Basico
 
-- [ ] 01. Criar um servidor HTTP simples que responda 'Olá, mundo!'.
+- [x] 01. Criar um servidor HTTP simples que responda 'Olá, mundo!'.
 - [ ] 02. Ler e escrever arquivos .txt usando o módulo fs.
 - [ ] 03. Criar um script de linha de comando que imprime seu nome (usando process.argv).
 - [ ] 04. Listar arquivos de um diretório com fs.readdir.
