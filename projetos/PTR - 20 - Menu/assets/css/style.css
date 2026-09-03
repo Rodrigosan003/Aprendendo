@@ -94,8 +94,9 @@ body {
         display: block;
     }
     .nav.open {
+        background: #00005a;
         flex-direction: column;
-        margin-top: 80px;
+        margin-top: 280px;
     }
 }
 
