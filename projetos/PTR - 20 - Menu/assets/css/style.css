@@ -93,8 +93,8 @@ body {
     .menu-btn {
         display: block;
     }
-    .nav {
-        display: none;
+    .nav.open {
+        flex-direction: column;
     }
 }
 
