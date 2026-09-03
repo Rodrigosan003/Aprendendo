@@ -93,6 +93,11 @@ body {
     .menu-btn {
         display: block;
     }
+
+    .nav {
+        display: none;
+    }
+
     .nav.open {
         background: #00005a;
         flex-direction: column;
