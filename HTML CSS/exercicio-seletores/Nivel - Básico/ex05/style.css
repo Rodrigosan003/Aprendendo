@@ -5,9 +5,11 @@
 }
 
 .texto {
-
+    font-size: 20px;
+    color: red;
 }
 
 .destaque {
-    
+    font-size: 30px;
+    color: blue;
 }
