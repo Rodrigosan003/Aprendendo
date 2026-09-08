@@ -5,5 +5,9 @@
 }
 
 .card p {
-    color: blue;
+    color: red;
 }
+
+/* .card > p {
+    color: blue;
+} */
