@@ -11,3 +11,7 @@
 .site section {
     padding: 30px;
 }
+
+nav a {
+    text-decoration: underline;
+}
