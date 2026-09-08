@@ -4,6 +4,6 @@
     box-sizing: border-box;
 }
 
-.card > p {
+.card  p {
     color: blue;
 }
