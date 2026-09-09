@@ -7,3 +7,8 @@
 .link {
     text-decoration: none;
 }
+
+.ativo {
+    font-weight: bold;
+    color: red;
+}
