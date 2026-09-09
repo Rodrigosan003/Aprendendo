@@ -11,3 +11,7 @@
 .projeto h3 {
     color: red;
 }
+
+.projeto > p {
+    color: green;
+}
