@@ -15,3 +15,7 @@ p {
 #principal p {
     color: red;
 }
+
+div.container p {
+    color: purple;
+}
