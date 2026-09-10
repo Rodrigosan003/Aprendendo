@@ -11,3 +11,11 @@ p {
 .texto {
     color: green;
 }
+
+div p {
+    color: orange;
+}
+
+div .texto {
+    color: purple;
+}
