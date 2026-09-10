@@ -11,3 +11,7 @@ p {
 .container p {
     color: green;
 }
+
+#principal p {
+    color: red;
+}
