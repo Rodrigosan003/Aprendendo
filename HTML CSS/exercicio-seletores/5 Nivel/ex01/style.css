@@ -19,3 +19,7 @@ p {
 .card .texto {
     color: orange;
 }
+
+#perfil p {
+    color: red;
+}
