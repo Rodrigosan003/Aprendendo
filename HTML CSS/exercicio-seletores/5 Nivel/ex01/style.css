@@ -11,3 +11,7 @@ p {
 .texto {
     color: blue;
 }
+
+.card p {
+    color: green;
+}
