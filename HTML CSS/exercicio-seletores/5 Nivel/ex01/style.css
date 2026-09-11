@@ -15,3 +15,7 @@ p {
 .card p {
     color: green;
 }
+
+.card .texto {
+    color: orange;
+}
