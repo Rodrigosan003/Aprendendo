@@ -1,49 +1,113 @@
+/* ===== Reset básico ===== */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eaf4ff;
+  color: #1e293b;
+}
+
+/* ===== Cabeçalho ===== */
 .cabecalho {
-    height: 100px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+  background-color: #0f3d6e;
+  color: white;
+  padding: 20px 40px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.cabecalho nav {
-    display: flex;
-    gap: 30px;
+.cabecalho h1 {
+  font-size: 28px;
 }
 
-.cabecalho nav a {
-    text-decoration: none;
-    font-size: 20px;
-    color: gray;
+nav {
+  display: flex;
+  gap: 25px;
 }
 
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #7dd3fc;
+}
+
+/* ===== Conteúdo principal ===== */
 main {
-    height: 100vh;
-}
-
-h2 {
-    text-align: center;
+  padding: 40px;
 }
 
 #projetos {
-    border: 2px solid red;
-    height: 100%;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around; */
+  background-color: white;
+  padding: 35px;
+  border-radius: 20px;
+
+  box-shadow: 0 5px 15px rgba(15, 61, 110, 0.15);
 }
 
+#projetos h2 {
+  color: #0f3d6e;
+  margin-bottom: 25px;
+}
+
+/* ===== Projetos ===== */
 .content-projetos {
-    border: 2px solid green;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+  display: flex;
+  gap: 20px;
+}
+
+.projeto {
+  flex: 1;
+
+  background-color: #dbeafe;
+  border: 2px solid #93c5fd;
+  border-radius: 12px;
+
+  padding: 25px;
+
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.projeto:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(30, 64, 175, 0.2);
+}
+
+.projeto h3 {
+  color: #1d4ed8;
+  margin-bottom: 10px;
+}
+
+.projeto p {
+  color: #475569;
+}
+
+/* ===== Projeto em destaque ===== */
+.projeto.destaque {
+  background-color: #bfdbfe;
+  border-color: #2563eb;
+}
+
+.projeto.destaque h3 {
+  color: #1e40af;
+}
+
+/* ===== Rodapé ===== */
+footer {
+  background-color: #0f3d6e;
+  color: white;
+  text-align: center;
+
+  padding: 20px;
+  margin-top: 20px;
 }
