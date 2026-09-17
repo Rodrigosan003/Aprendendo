@@ -9,4 +9,5 @@
     width: 100vw;
     background: red;
     margin-bottom: 10px;
+    display: inline;
 }
