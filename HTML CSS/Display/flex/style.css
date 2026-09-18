@@ -8,3 +8,10 @@
     height: 100vh;
     color: #bbbbbb;
 }
+
+.item {
+    height: 200px;
+    width: 250px;
+    background: black;
+    border-radius: 10px;
+}
