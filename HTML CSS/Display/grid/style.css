@@ -17,3 +17,7 @@
     color: aliceblue;
     font-size: 30px;
 }
+
+.none {
+    display: none;
+}
