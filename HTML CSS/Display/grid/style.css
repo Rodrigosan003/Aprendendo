@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
 .grid {
     height: 100px;
     width: 150px;
