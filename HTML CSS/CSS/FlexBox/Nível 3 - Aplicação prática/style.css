@@ -9,4 +9,7 @@ header {
     width: 100%;
     background: blue;
     padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
