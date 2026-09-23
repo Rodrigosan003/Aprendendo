@@ -3,3 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    height: 80px;
+    width: 100%;
+    background: blue;
+}
