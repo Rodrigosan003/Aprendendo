@@ -48,3 +48,10 @@ header {
     height: 100px;
     width: 100%;
 }
+
+.cards {
+    height: 100px;
+    width: 100px;
+    background: aqua;
+    border-radius: 10px;
+}
