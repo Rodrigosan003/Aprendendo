@@ -37,6 +37,14 @@ header {
 }
 
 .container {
-    border: 2px solid black;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-content {
+    border: 2px solid black;
+    height: 100px;
+    width: 100%;
 }
