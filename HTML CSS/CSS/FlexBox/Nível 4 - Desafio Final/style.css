@@ -26,5 +26,6 @@
 }
 
 .cards:hover {
+    background: #00aaaa;
     transform: scale(1.05);
 }
