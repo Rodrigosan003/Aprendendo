@@ -7,6 +7,7 @@
 .main {
     height: 100vh;
     background: #c7c7c7;
+    display: flex;
 }
 
 .cards {
