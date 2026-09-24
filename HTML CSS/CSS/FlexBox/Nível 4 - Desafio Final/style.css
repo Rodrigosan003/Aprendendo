@@ -22,6 +22,7 @@
     background: aqua;
     border-radius: 20px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+    transition: .2s ease-in-out;
 }
 
 .cards:hover {
