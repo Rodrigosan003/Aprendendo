@@ -23,3 +23,7 @@
     border-radius: 20px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
 }
+
+.cards:hover {
+    transform: scale(1.05);
+}
