@@ -14,4 +14,5 @@
     width: 150px;
     background: aqua;
     border-radius: 20px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
 }
