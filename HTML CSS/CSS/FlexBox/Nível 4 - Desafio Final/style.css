@@ -8,3 +8,10 @@
     height: 100vh;
     background: #c7c7c7;
 }
+
+.cards {
+    height: 150px;
+    width: 150px;
+    background: aqua;
+    border-radius: 20px;
+}
