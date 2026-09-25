@@ -90,19 +90,7 @@ body {
 }
 
 @media (max-width: 768px) {
-    .menu-btn {
-        display: block;
-    }
 
-    .nav {
-        display: none;
-    }
-
-    .nav.open {
-        background: #00005a;
-        flex-direction: column;
-        margin-top: 280px;
-    }
 }
 
 @media (max-width: 617px) {
