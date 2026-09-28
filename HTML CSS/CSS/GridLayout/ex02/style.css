@@ -8,3 +8,10 @@
     background: #cacaca;
     height: 100vh;
 }
+
+.itens {
+    height: 150px;
+    width: 150px;
+    background: black;
+    border-radius: 15px;
+}
