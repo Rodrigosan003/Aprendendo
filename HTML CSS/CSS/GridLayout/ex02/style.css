@@ -8,12 +8,14 @@
     background: #cacaca;
     height: 100vh;
     display: grid;
+    gap: 30px;
     grid-template-columns: 2fr 1fr;
 }
 
 .itens {
     height: 150px;
-    width: 150px;
+    /* width: 150px; */
+    width: 100%;
     background: black;
     border-radius: 15px;
     transition: .3s ease-in-out;
