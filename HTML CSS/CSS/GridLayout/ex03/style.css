@@ -7,10 +7,12 @@
 .container {
     height: 100vh;
     background: #c4c4c4;
+
 }
 
 .itens {
     height: 150px;
     width: 100%;
     background: black;
+    border-radius: 15px;
 }
