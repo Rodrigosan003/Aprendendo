@@ -19,6 +19,7 @@
     width: 100%;
     background: black;
     border-radius: 15px;
+    transition: .3s ease-in-out;
 }
 
 .itens:hover {
