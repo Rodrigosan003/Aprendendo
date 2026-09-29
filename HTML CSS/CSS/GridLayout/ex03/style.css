@@ -9,12 +9,9 @@
     padding: 15px;
     background: #c4c4c4;
     display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
     grid-template-rows: 150px;
     gap: 20px;
-}
-
-.colum {
-    grid-template-columns: 2fr 1fr 1fr;
 }
 
 .itens {
