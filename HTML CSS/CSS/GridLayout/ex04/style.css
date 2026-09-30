@@ -19,3 +19,7 @@
     background: black;
     border-radius: 15px;
 }
+
+.itens:hover {
+    transform: scale(1.02);
+}
