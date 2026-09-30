@@ -8,6 +8,9 @@
     min-height: 100vh;
     padding: 20px;
     background: gray;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    gap: 20px;
 }
 
 img {
