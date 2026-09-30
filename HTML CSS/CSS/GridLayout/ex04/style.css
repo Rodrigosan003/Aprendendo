@@ -8,3 +8,8 @@
     min-height: 100vh;
     background: #d6d6d6;
 }
+
+.itens {
+    height: 150px;
+    width: 100%;
+}
