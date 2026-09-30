@@ -19,7 +19,7 @@
 
 - [x] 1. Crie um layout de grade básico com 3 colunas usando `display: grid`.
 - [x] 2. Faça um layout de blog responsivo usando CSS Grid.
-- [ ] 3. Crie uma galeria de imagens usando CSS Grid.
+- [x] 3. Crie uma galeria de imagens usando CSS Grid.
 - [ ] 4. Implemente um layout de dashboard com várias seções usando CSS Grid.
 - [ ] 5. Faça um sistema de cards responsivo usando CSS Grid.
 - [ ] 6. Crie um layout de duas colunas onde a segunda coluna possui largura fixa.
