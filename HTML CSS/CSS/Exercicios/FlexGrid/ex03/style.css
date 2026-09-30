@@ -7,9 +7,12 @@
 .container {
     min-height: 100vh;
     padding: 20px;
+    background: gray;
 }
 
 img {
     height: 250px;
+    width: 350px;
+    object-fit: cover;
     border-radius: 15px;
 }
