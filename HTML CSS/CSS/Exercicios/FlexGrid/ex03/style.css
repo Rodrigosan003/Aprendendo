@@ -8,3 +8,8 @@
     min-height: 100vh;
     padding: 20px;
 }
+
+img {
+    height: 250px;
+    border-radius: 15px;
+}
