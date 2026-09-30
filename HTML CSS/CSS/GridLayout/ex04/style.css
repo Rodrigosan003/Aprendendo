@@ -7,7 +7,7 @@
 .container {
     min-height: 100vh;
     padding: 20px;
-    background: #d6d6d6;
+    background: #e6e6e6;
     display: grid;
     grid-template-columns: repeat(3, minmax(200px, 1fr));
     gap: 20px;
