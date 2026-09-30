@@ -6,6 +6,7 @@
 
 .container {
     min-height: 100vh;
+    padding: 20px;
     background: #d6d6d6;
 }
 
