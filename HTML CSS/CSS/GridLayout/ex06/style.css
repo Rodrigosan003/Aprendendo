@@ -13,3 +13,8 @@ body {
     height: 80px;
     background: black;
 }
+
+.sidebar {
+    height: 100%;
+    background: red;
+}
