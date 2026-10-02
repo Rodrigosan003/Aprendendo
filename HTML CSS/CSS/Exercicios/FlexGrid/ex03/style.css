@@ -18,6 +18,7 @@ img {
     width: 100%;
     object-fit: cover;
     border-radius: 15px;
+    transition: .3s ease-in-out;
 }
 
 img:hover {
