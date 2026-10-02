@@ -7,6 +7,11 @@
 body {
     min-height: 100vh;
     display: grid;
+    grid-template-columns: 200px 1f;
+    grid-template-areas: 
+    "header header"
+    "sidebar main"
+    "footer footer";
 }
 
 .header {
