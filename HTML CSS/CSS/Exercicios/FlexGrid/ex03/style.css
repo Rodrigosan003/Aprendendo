@@ -9,7 +9,6 @@
     padding: 20px;
     background: gray;
     display: grid;
-    /* grid-template-columns: 350px 350px 350px; */
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
 }
