@@ -25,3 +25,9 @@ body {
     height: 100%;
     background: red;
 }
+
+.main {
+    grid-area: main;
+    height: 100%;
+    background: blue;
+}
