@@ -15,6 +15,7 @@ body {
 }
 
 .header {
+    grid-area: header;
     height: 80px;
     background: black;
 }
