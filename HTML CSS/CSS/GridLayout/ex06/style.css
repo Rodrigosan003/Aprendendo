@@ -31,3 +31,9 @@ body {
     height: 100vh;
     background: blue;
 }
+
+.footer {
+    grid-area: footer;
+    height: 70px;
+    background: black;
+}
