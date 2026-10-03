@@ -9,7 +9,8 @@ body {
     grid-template-columns: 200px 1fr;
     grid-template-areas: 
     "header header"
-    "aside main";
+    "aside main"
+    "footer footer";
 }
 
 .header {
