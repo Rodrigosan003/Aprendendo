@@ -8,3 +8,8 @@
     height: 80px;
     background: black;
 }
+
+.sidebar {
+    height: 100vh;
+    background: red
+}
