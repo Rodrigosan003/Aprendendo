@@ -32,6 +32,7 @@ body {
 }
 
 .footer {
+    grid-area: footer;
     height: 80px;
     background: black;
 }
