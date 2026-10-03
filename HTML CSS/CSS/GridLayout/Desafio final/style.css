@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
 .header {
     height: 80px;
     background: black;
