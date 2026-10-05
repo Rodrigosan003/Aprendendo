@@ -8,3 +8,9 @@
     min-height: 100vh;
     display: grid;
 }
+
+.card {
+    height: 150px;
+    background: black;
+    border-radius: 15px;
+}
