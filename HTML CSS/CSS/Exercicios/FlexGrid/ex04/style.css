@@ -13,6 +13,7 @@
 .sidebar {
     height: 100vh;
     background: red;
+    border-radius: 0 15px 15px 0;
 }
 
 .cards {
