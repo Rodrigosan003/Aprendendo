@@ -18,4 +18,6 @@
 .cards {
     height: 100vh;
     background: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
