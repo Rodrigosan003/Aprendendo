@@ -6,6 +6,7 @@
 
 .container {
     min-height: 100vh;
+    padding: 15px;
     background: gray;
     display: grid;
     grid-template-columns: 1fr 400px;
