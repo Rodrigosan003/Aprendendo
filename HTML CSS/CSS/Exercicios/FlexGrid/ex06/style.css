@@ -8,6 +8,7 @@
     min-height: 100vh;
     background: gray;
     display: grid;
+    grid-template-columns: 1fr 400px;
 }
 
 .itens {
