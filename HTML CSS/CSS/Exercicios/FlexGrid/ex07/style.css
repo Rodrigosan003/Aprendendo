@@ -19,3 +19,9 @@
     height: 90px;
     background: black;
 }
+
+.products {
+    grid-area: products;
+    background: red;
+    height: 100vh;
+}
