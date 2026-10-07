@@ -25,3 +25,9 @@
     background: red;
     height: 100vh;
 }
+
+.finish {
+    grid-area: finish;
+    background: green;
+    height: 100vh;
+}
