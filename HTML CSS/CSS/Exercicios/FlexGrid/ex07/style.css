@@ -9,6 +9,8 @@
     background: aliceblue;
     display: grid;
     grid-template-columns: 1fr 400px;
+    grid-template-areas: 
+    "header header";
 }
 
 .header {
