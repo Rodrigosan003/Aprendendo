@@ -6,4 +6,5 @@
 
 .container {
     background: aliceblue;
+    display: grid;
 }
