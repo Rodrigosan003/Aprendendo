@@ -25,6 +25,7 @@
     grid-area: products;
     background: red;
     height: 100vh;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
