@@ -43,3 +43,9 @@
     background: green;
     height: 100vh;
 }
+
+.buy {
+    height: 300px;
+    width: 100%;
+    background: black;
+}
