@@ -23,7 +23,6 @@
 
 .products {
     grid-area: products;
-    background: red;
     height: 100vh;
     padding: 20px;
     display: flex;
@@ -40,7 +39,6 @@
 
 .finish {
     grid-area: finish;
-    background: green;
     height: 100vh;
     padding: 20px;
 }
