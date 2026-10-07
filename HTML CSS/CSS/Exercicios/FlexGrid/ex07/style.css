@@ -24,6 +24,9 @@
     grid-area: products;
     background: red;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .finish {
@@ -36,4 +39,5 @@
     height: 150px;
     width: 100%;
     background: black;
+    border-radius: 10px;
 }
