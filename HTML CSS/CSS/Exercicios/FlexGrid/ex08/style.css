@@ -11,4 +11,6 @@
 
 .menu {
     height: 10vh;
+    background: black;
+    border-radius: 0 15px 0 15px;
 }
