@@ -52,7 +52,7 @@
 - [x] Exercício 5
 - [x] Exercício 6
 - [x] Exercício 7
-- [ ] Exercício 8
+- [x] Exercício 8
 - [ ] Exercício 9
 - [ ] Exercício 10
 
