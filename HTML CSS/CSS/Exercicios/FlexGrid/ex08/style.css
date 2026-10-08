@@ -19,4 +19,6 @@
 
 .page {
     height: 100vh;
+    background: aliceblue;
+    margin: 20px;
 }
