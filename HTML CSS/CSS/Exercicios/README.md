@@ -24,7 +24,7 @@
 - [x] 5. Faça um sistema de cards responsivo usando CSS Grid.
 - [x] 6. Crie um layout de duas colunas onde a segunda coluna possui largura fixa.
 - [x] 7. Implemente um layout de carrinho de compras responsivo usando CSS Grid.
-- [ ] 8. Crie um menu de navegação vertical responsivo usando CSS Grid.
+- [x] 8. Crie um menu de navegação vertical responsivo usando CSS Grid.
 - [ ] 9. Faça um layout de perfil de usuário responsivo usando CSS Grid.
 - [ ] 10. Crie um layout de formulário de contato responsivo usando CSS Grid.
 
