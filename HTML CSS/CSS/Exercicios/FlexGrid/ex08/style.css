@@ -12,7 +12,7 @@
 }
 
 .menu {
-    height: 10vh;
+    height: 100vh;
     background: black;
-    border-radius: 0 15px 0 15px;
+    border-radius: 0 15px 15px 0;
 }
