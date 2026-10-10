@@ -25,6 +25,7 @@
 .user {
     grid-area: user;
     height: 100vh;
+    background: green;
 }
 
 .right {}
