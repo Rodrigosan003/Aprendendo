@@ -21,3 +21,9 @@
     height: 100vh;
     background: red;
 }
+
+.user {
+    grid-area: user;
+}
+
+.right {}
