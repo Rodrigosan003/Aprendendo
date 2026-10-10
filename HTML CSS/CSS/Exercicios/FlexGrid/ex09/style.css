@@ -11,4 +11,5 @@
 
 .header {
     grid-area: header;
+    background: black;
 }
