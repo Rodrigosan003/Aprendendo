@@ -10,7 +10,8 @@
     display: grid;
     grid-template-columns: 250px 1fr 250px;
     grid-template-areas: 
-    "header header header";
+    "header header header"
+    "bar-left user bar-right";
 }
 
 .header {
