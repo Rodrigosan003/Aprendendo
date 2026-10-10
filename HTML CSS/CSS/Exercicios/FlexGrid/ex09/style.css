@@ -8,3 +8,7 @@
     background: gray;
     min-height: 100vh;
 }
+
+.header {
+    grid-area: header;
+}
