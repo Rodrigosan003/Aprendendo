@@ -12,4 +12,6 @@
 .header {
     grid-area: header;
     background: black;
+    height: 90px;
+    width: 100%;
 }
