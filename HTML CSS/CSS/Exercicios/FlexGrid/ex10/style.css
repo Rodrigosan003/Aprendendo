@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.container {
+    width: 700px;
+}
+
 .cabecalho {
     grid-area: cabecalho;
     height: 100px;
