@@ -5,6 +5,7 @@
 }
 
 .cabecalho {
+    grid-area: cabecalho;
     height: 100px;
     background: black;
 }
