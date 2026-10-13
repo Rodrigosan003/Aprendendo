@@ -31,3 +31,9 @@ body {
     width: 100%;
     background: black;
 }
+
+.area {
+    grid-area: area;
+    height: 100px;
+    width: 100%;
+}
