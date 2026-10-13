@@ -36,4 +36,5 @@ body {
     grid-area: area;
     height: 100px;
     width: 100%;
+    background: black;
 }
