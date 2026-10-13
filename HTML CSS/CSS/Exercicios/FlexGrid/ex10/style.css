@@ -21,6 +21,7 @@ body {
     grid-template-areas: 
     "cabecalho cabecalho"
     "inputs inputs"
+    "inputs inputs"
     "inputs inputs";
 }
 
