@@ -20,6 +20,7 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
     "cabecalho cabecalho"
+    "inputs inputs"
     "inputs inputs";
 }
 
