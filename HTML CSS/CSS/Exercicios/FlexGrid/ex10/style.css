@@ -33,7 +33,7 @@ body {
     background: black;
 }
 
-.inputs {
+.inputs-name {
     grid-area: inputs;
     height: 50px;
     width: 100%;
