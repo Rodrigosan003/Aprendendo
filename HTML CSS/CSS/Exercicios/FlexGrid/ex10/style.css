@@ -20,7 +20,7 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
     "cabecalho cabecalho"
-    "inputs inputs"
+    "inputs-name inputs-email"
     "inputs inputs"
     "inputs inputs"
     "area area";
