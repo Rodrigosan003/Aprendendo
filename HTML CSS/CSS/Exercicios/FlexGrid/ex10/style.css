@@ -41,6 +41,7 @@ body {
   grid-area: inputs-name;
   height: 50px;
   width: 100%;
+  border-radius: 10px;
   background: black;
 }
 
@@ -48,6 +49,7 @@ body {
   grid-area: inputs-email;
   height: 50px;
   width: 100%;
+  border-radius: 10px;
   background: black;
 }
 
@@ -55,6 +57,7 @@ body {
   grid-area: inputs-phone;
   height: 50px;
   width: 100%;
+  border-radius: 10px;
   background: black;
 }
 
@@ -62,6 +65,7 @@ body {
   grid-area: inputs-date;
   height: 50px;
   width: 100%;
+  border-radius: 10px;
   background: black;
 }
 
@@ -69,6 +73,7 @@ body {
   grid-area: inputs-user;
   height: 50px;
   width: 100%;
+  border-radius: 10px;
   background: black;
 }
 
@@ -76,6 +81,7 @@ body {
   grid-area: inputs-about;
   height: 50px;
   width: 100%;
+  border-radius: 10px;
   background: black;
 }
 
