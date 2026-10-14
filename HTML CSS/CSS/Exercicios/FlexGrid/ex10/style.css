@@ -40,8 +40,8 @@ body {
     background: black;
 }
 
-.inputs-name {
-    grid-area: inputs-name;
+.inputs-email {
+    grid-area: inputs-email;
     height: 50px;
     width: 100%;
     background: black;
