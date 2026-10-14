@@ -17,7 +17,11 @@ body {
     /* padding: 10px; */
     border-radius: 15px;
     border: 2px solid black;
-    display: grid;
+    
+}
+
+.content {
+display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
     "inputs-name inputs-email"
