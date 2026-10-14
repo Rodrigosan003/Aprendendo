@@ -21,7 +21,7 @@ body {
     grid-template-areas: 
     "cabecalho cabecalho"
     "inputs-name inputs-email"
-    "inputs inputs"
+    "inputs-phone inputs-date"
     "inputs inputs"
     "area area";
 }
