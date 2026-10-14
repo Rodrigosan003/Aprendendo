@@ -61,6 +61,13 @@ body {
     background: black;
 }
 
+.inputs-user {
+    grid-area: inputs-user;
+    height: 50px;
+    width: 100%;
+    background: black;
+}
+
 .area {
     grid-area: area;
     height: 100px;
