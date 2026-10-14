@@ -26,7 +26,7 @@
 - [x] 7. Implemente um layout de carrinho de compras responsivo usando CSS Grid.
 - [x] 8. Crie um menu de navegação vertical responsivo usando CSS Grid.
 - [x] 9. Faça um layout de perfil de usuário responsivo usando CSS Grid.
-- [ ] 10. Crie um layout de formulário de contato responsivo usando CSS Grid.
+- [x] 10. Crie um layout de formulário de contato responsivo usando CSS Grid.
 
 ---
 
@@ -54,6 +54,6 @@
 - [x] Exercício 7
 - [x] Exercício 8
 - [x] Exercício 9
-- [ ] Exercício 10
+- [x] Exercício 10
 
 🏆 Meta: Completar os 20 exercícios.
