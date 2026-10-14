@@ -54,6 +54,13 @@ body {
     background: black;
 }
 
+.inputs-date {
+    grid-area: inputs-date;
+    height: 50px;
+    width: 100%;
+    background: black;
+}
+
 .area {
     grid-area: area;
     height: 100px;
