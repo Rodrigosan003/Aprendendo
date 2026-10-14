@@ -68,6 +68,13 @@ body {
     background: black;
 }
 
+.inputs-about {
+    grid-area: inputs-about;
+    height: 50px;
+    width: 100%;
+    background: black;
+}
+
 .area {
     grid-area: area;
     height: 100px;
