@@ -34,7 +34,7 @@ body {
 }
 
 .inputs-name {
-    grid-area: inputs;
+    grid-area: inputs-name;
     height: 50px;
     width: 100%;
     background: black;
