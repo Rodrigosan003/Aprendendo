@@ -47,6 +47,13 @@ body {
     background: black;
 }
 
+.inputs-phone {
+    grid-area: inputs-phone;
+    height: 50px;
+    width: 100%;
+    background: black;
+}
+
 .area {
     grid-area: area;
     height: 100px;
