@@ -13,9 +13,9 @@
 }
 
 .new-card {
-    position: absolute;
     height: 100px;
     width: 100px;
     background: black;
     border-radius: 10px;
+    position: absolute;
 }
