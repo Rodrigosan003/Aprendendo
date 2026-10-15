@@ -5,19 +5,19 @@
 }
 
 .card {
+    position: relative;
     height: 300px;
     width: 300px;
     background: blue;
     border-radius: 15px;
-    position: relative;
 }
 
 .new-card {
+    position: absolute;
     height: 100px;
     width: 100px;
     background: black;
     border-radius: 10px;
-    position: absolute;
     top: 0;
     left: 30px;
 }
