@@ -5,11 +5,11 @@
 }
 
 .card {
-    position: relative;
     height: 300px;
     width: 300px;
     background: blue;
-    border-radius: 15px
+    border-radius: 15px;
+    position: relative;
 }
 
 .new-card {
