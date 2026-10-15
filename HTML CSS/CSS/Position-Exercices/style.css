@@ -10,3 +10,10 @@
     background: blue;
     border-radius: 15px
 }
+
+.new-card {
+    height: 100px;
+    width: 100px;
+    background: black;
+    border-radius: 10px;
+}
