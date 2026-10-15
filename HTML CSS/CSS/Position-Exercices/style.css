@@ -5,6 +5,7 @@
 }
 
 .card {
+    position: relative;
     height: 300px;
     width: 300px;
     background: blue;
