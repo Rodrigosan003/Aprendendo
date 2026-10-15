@@ -26,5 +26,6 @@ body {
     background: black;
     border-radius: 10px;
     top: 0;
-    left: 30px;
+    /* left: 30px; */
+    right: 0;
 }
