@@ -25,7 +25,8 @@ body {
     width: 100px;
     background: black;
     border-radius: 10px;
-    top: 0;
+    /* top: 0; */
     /* left: 30px; */
     right: 0;
+    bottom: 0;
 }
