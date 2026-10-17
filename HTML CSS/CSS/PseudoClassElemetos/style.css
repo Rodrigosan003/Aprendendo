@@ -8,3 +8,8 @@ body {
     height: 100vh;
     background: gray;
 }
+
+ul {
+    display: flex;
+    align-items: center;
+}
