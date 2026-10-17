@@ -14,3 +14,7 @@ ul {
     align-items: center;
     justify-content: space-around;
 }
+
+li a:hover {
+    color: blue;
+}
