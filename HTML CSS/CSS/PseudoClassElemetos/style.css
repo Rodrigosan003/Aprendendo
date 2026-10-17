@@ -22,3 +22,7 @@ li a {
 li a:hover {
     color: blue;
 }
+
+ul:first-child {
+    font-weight: bold;
+}
