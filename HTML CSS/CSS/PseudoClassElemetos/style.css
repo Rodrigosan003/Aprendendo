@@ -26,3 +26,7 @@ li a:hover {
 ul:first-child {
     font-weight: bold;
 }
+
+li a::before {
+    content: "→";
+}
