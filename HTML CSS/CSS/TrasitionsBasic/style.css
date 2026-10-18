@@ -28,4 +28,5 @@ body {
 .button:hover {
     background: midnightblue;
     box-shadow: 0 0 5px rgba(25, 25, 112, 0.8);
+    transform: scale(1.05);
 }
