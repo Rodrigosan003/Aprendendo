@@ -21,4 +21,6 @@ body {
     font-weight: bold;
     color: antiquewhite;
     box-shadow: 0 0 5px rgba(65, 105, 225, 0.8);
+
+    transition: background 300ms ease, transform 300ms ease;
 }
