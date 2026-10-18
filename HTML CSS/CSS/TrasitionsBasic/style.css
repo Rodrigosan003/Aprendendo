@@ -17,4 +17,8 @@ body {
     padding: 15px 10px;
     border: none;
     border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: antiquewhite;
+    box-shadow: 0 0 5px rgba(65, 105, 225, 0.8);
 }
