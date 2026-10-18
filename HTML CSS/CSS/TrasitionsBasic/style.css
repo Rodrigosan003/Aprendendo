@@ -24,3 +24,8 @@ body {
 
     transition: background 300ms ease, transform 300ms ease;
 }
+
+.button:hover {
+    background: midnightblue;
+    box-shadow: 0 0 5px rgba(25, 25, 112, 0.8);
+}
