@@ -37,6 +37,7 @@ body {
     font-size: 25px;
     font-weight: bold;
     color: aliceblue;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
     animation: aparecer 700ms ease-out both;
 }
 
