@@ -31,3 +31,7 @@ body {
     box-shadow: 0 0 5px rgba(25, 25, 112, 0.8);
     transform: scale(1.05);
 }
+
+.aviso {
+    animation: aparecer 700ms ease-out both;
+}
