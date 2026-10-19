@@ -35,6 +35,7 @@ body {
 
 .aviso {
     font-size: 25px;
+    font-weight: bold;
     animation: aparecer 700ms ease-out both;
 }
 
