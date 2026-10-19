@@ -35,3 +35,10 @@ body {
 .aviso {
     animation: aparecer 700ms ease-out both;
 }
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(16px);
+    }
+}
