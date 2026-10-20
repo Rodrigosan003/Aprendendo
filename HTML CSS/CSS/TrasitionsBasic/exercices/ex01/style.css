@@ -7,11 +7,14 @@
 body {
     height: 100vh;
     background: #d8d8d8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .button {
     padding: 10px 15px;
     border: none;
     background: blue;
-    
+
 }
