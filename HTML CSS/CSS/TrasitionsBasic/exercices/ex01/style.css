@@ -26,4 +26,5 @@ body {
 
 .button:hover {
     background: #5b5bff;
+    transform: scale(1.05);
 }
