@@ -15,6 +15,7 @@ body {
 .button {
     padding: 10px 15px;
     border: none;
+    border-radius: 10px;
     background: blue;
     color: aliceblue;
     font-size: 20px;
