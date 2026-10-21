@@ -17,7 +17,7 @@ body {
     width: 150px;
     background: blue;
     border-radius: 10px;
-    animation: aparecer 600ms ease-out both;
+    animation: aparecer 600ms ease-out infinite;
 }
 
 @keyframes aparecer {
