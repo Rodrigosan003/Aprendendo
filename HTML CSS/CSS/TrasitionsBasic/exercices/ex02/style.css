@@ -16,4 +16,5 @@ body {
     height: 150px;
     width: 150px;
     background: blue;
+    border-radius: 10px;
 }
