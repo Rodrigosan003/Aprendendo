@@ -17,4 +17,5 @@ body {
     width: 150px;
     background: black;
     border-radius: 50%;
+    animation: pulsar 2s infinite;
 }
