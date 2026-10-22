@@ -15,7 +15,7 @@ body {
 .ball {
     height: 150px;
     width: 150px;
-    background: black;
+    background: blue;
     border-radius: 50%;
     animation: pulsar 2s infinite;
 }
