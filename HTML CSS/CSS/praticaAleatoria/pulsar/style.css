@@ -28,4 +28,8 @@ body {
     50% {
         transform: scale(1.5);
     }
+
+    100% {
+        transform: scale(1);
+    }
 }
