@@ -8,3 +8,9 @@ body {
     height: 100vh;
     background: #d4d4d4;
 }
+
+.box {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
