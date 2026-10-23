@@ -19,3 +19,9 @@ body {
     border-radius: 50%;
     animation: piscar infinite alternate;
 }
+
+@keyframes piscar {
+    0% {
+        opacity: 0;
+    }
+}
