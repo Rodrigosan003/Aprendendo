@@ -17,7 +17,7 @@ body {
     width: 150px;
     background: black;
     border-radius: 50%;
-    animation: piscar infinite alternate;
+    animation: piscar 2s infinite alternate;
 }
 
 @keyframes piscar {
