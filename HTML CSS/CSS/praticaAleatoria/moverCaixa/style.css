@@ -12,4 +12,5 @@ body {
 .box {
     height: 150px;
     width: 150px;
+    background: black;
 }
