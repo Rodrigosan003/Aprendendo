@@ -16,3 +16,9 @@ body {
     border-radius: 50%;
     animation: percurso 4s infinite;
 }
+
+@keyframes percurso {
+    0% {
+        transform: translate(0, 0);
+    }
+}
