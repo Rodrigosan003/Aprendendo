@@ -24,11 +24,12 @@ body {
 
     25% {
         /* transform: translate(200px, 0); */
-        transform: translate(100vw, 0);
+        transform: translate(90vw, 0);
     }
 
     50% {
-        transform: translate(200px, 100px);
+        /* transform: translate(200px, 100px); */
+        transform: translate(90vw, 90vh);
     }
 
     75% {
