@@ -25,4 +25,8 @@ body {
     to {
         transform: translateX(0);
     }
+
+    from {
+        transform: translateX(200px);
+    }
 }
