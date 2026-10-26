@@ -14,4 +14,7 @@ body {
     width: 150px;
     background: black;
     border-radius: 50%;
+
+    /* animation: mover 2s infinite; */
+    animation-name: mover;
 }
