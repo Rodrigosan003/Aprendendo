@@ -17,4 +17,6 @@ body {
 
     /* animation: mover 2s infinite; */
     animation-name: mover;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
