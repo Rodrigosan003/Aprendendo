@@ -20,3 +20,9 @@ body {
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
+
+@keyframes mover {
+    to {
+        transform: translateX(0);
+    }
+}
