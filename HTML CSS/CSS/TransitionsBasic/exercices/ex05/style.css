@@ -8,3 +8,8 @@ body {
     height: 100vh;
     background: #d8d8d8;
 }
+
+.item {
+    height: 150px;
+    width: 150px;
+}
