@@ -19,3 +19,13 @@ body {
     border-radius: 50%;
     animation: pulsar 2s infinite alternate;
 }
+
+@keyframes pulsar {
+    to {
+        transform: scale(1);
+    }
+
+    from {
+        transform: scale(1.5);
+    }
+}
