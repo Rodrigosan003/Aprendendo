@@ -25,3 +25,8 @@ p {
 
 /* Telas de até 600px */ 
 
+@media (max-width: 600px) {
+    main {
+        padding: 20px;
+    }
+}
