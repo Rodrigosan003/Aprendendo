@@ -29,4 +29,8 @@ p {
     main {
         padding: 20px;
     }
+
+    h1 {
+        font-size: 26px;
+    }
 }
