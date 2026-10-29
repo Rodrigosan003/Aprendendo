@@ -7,3 +7,9 @@
 .flex {
     border: 1px solid red;
 }
+
+.itens {
+    height: 150px;
+    width: 150px;
+    background: black;
+}
