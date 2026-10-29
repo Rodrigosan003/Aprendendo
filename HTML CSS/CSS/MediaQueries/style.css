@@ -10,3 +10,7 @@ body {
     background: #222;
     color: white;
 }
+
+main {
+    padding: 40px;
+}
