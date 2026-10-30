@@ -1,6 +1,6 @@
 let btn = document.querySelector(".btn");
 let content = document.querySelector(".content");
 
-btn.addEventListener("click", () = > {
-    content.classList.add("red");
+btn.addEventListener("click", () => {
+  content.classList.toggle("red");
 });
