@@ -1,18 +1,19 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .content {
-    height: 100vh;
-    background: gray;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 100vh;
+  background: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn {
-    border: none;
-    padding: 10px 15px;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
 }
