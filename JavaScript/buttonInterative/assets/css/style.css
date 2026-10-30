@@ -23,4 +23,5 @@
 
 .red {
   background: red;
+  transition: 2s ease;
 }
