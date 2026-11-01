@@ -20,7 +20,7 @@ p {
     text-align: center;
 }
 
-@media (max-with: 600px) {
+@media (max-width: 600px) {
     h1 {
         font-size: 26px;
         color: blue;
