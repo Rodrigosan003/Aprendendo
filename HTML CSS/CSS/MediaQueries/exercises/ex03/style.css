@@ -11,3 +11,10 @@
     display: flex;
     gap: 15px;
 }
+
+.cart {
+    height: 200px;
+    width: 150px;
+    padding: 15px;
+    background: white;
+}
