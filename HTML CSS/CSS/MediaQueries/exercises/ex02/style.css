@@ -5,6 +5,7 @@
 }
 
 main {
+    height: 100vh;
     padding: 40px;
     background: #c8c8c8;
 }
