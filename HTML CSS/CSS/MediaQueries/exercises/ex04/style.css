@@ -20,3 +20,16 @@
     font-weight: bold;
     color: aliceblue;
 }
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+ul li {
+    font-size: 15px;
+    font-weight: bold;
+    color: aliceblue;
+    list-style-type: none;
+}
