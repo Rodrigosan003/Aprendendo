@@ -33,3 +33,15 @@ ul li {
     color: aliceblue;
     list-style-type: none;
 }
+
+@media (max-width: 768px) {
+    .header {
+        height: 100vh;
+        flex-direction: column;
+        padding: 60px 0;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+}
