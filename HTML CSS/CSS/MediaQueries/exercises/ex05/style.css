@@ -20,6 +20,16 @@
     border-radius: 15px;
 }
 
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .itens {
+        background: red;
+    }
+}
+
 @media (max-width: 600px) {
     .container {
         flex-direction: column;
