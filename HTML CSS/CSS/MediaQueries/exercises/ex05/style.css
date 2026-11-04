@@ -24,4 +24,8 @@
     .container {
         flex-direction: column;
     }
+
+    .itens {
+        background: blue;
+    }
 }
