@@ -89,6 +89,9 @@ body {
 }
 
 @media (max-width: 768px) {
+    .menu-btn {
+        display: block;
+    }
   .nav {
     flex-direction: column;
     gap: 64px;
