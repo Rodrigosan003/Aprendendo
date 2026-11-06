@@ -93,6 +93,7 @@ body {
     flex-direction: column;
     background: #00005a;
     position: absolute;
+    top: 80px;
   }
 
 @media (max-width: 617px) {
