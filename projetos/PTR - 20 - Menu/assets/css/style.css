@@ -1,106 +1,104 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    position: relative;
+  position: relative;
 }
 
 .header {
-    position: fixed;
-    height: 80px;
-    width: 100%;
-    padding: 0 50px;
-    background: #00005a;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  padding: 0 50px;
+  background: #00005a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
-    color: aliceblue;
-    font-size: 30px;
-    font-weight: bolder;
+  color: aliceblue;
+  font-size: 30px;
+  font-weight: bolder;
 }
 
 .menu-btn {
-    background: none;
-    border: none;
-    color: aliceblue;
-    font-size: 30px;
-    display: none;
+  background: none;
+  border: none;
+  color: aliceblue;
+  font-size: 30px;
+  display: none;
 }
 
 .nav {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 .nav a {
-    text-decoration: none;
-    color: aliceblue;
-    font-size: 20px;
-    transition: .2s ease;
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 20px;
+  transition: 0.2s ease;
 }
 
-.nav a:hover, .nav a.active {
-    color: #8585f7;
+.nav a:hover,
+.nav a.active {
+  color: #8585f7;
 }
 
 .section {
-    height: 100vh;
+  height: 100vh;
 }
 
 #inicio {
-    background: aqua;
+  background: aqua;
 }
 
 #sobre {
-    background: yellow;
+  background: yellow;
 }
 
 #servicos {
-    background: green;
+  background: green;
 }
 
 #contato {
-    background: gray;
+  background: gray;
 }
 
 .footer {
-    height: 80px;
-    width: 100%;
-    background: #00005a;
+  height: 80px;
+  width: 100%;
+  background: #00005a;
 }
 
 /* Responsivo */
 
 @media (max-width: 1200px) {
-    
 }
 
 @media (max-width: 991px) {
-
 }
 
 @media (max-width: 768px) {
-
+  .nav {
+    display: none;
+  }
 }
 
 @media (max-width: 617px) {
-  
 }
 
 @media (max-width: 450px) {
-
 }
 
 @media (max-width: 365px) {
- 
 }
