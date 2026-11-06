@@ -90,7 +90,8 @@ body {
 
 @media (max-width: 768px) {
   .nav {
-    display: none;
+    flex-direction: column;
+    background: #00005a;
   }
 
 @media (max-width: 617px) {
