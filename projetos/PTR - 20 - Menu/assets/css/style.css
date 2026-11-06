@@ -107,6 +107,10 @@ body {
       font-size: 30px;
   }
 
+  .nav.open {
+      display: flex;
+  }
+
 @media (max-width: 617px) {
 }
 
