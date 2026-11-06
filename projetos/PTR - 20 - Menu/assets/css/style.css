@@ -82,7 +82,10 @@ body {
 
 /* Responsivo */
 
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
+    .header {
+        padding: 0 120px;
+    }
 }
 
 @media (max-width: 991px) {
