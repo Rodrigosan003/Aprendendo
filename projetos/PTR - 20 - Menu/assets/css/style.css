@@ -87,6 +87,10 @@ body {
         padding: 0 120px;
     }
 
+    .logo {
+        font-size: 40px;
+    }
+
     .nav {
         gap: 50px;
     }
