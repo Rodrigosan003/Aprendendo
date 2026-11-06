@@ -101,6 +101,10 @@ body {
     justify-content: center;
   }
 
+  .nav a {
+      font-size: 30px;
+  }
+
 @media (max-width: 617px) {
 }
 
