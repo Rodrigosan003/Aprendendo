@@ -101,8 +101,8 @@ body {
     }
 }
 
-@media (max-width: 991px) {
-}
+/* @media (max-width: 991px) {
+} */
 
 @media (max-width: 768px) {
     #menu-btn {
@@ -142,5 +142,5 @@ body {
     }
 }
 
-@media (max-width: 365px) {
-}
+/* @media (max-width: 365px) {
+} */
