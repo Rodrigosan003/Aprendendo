@@ -106,7 +106,7 @@ body {
 
 @media (max-width: 768px) {
     #menu-btn {
-        display: block;
+        display: flex;
     }
   .nav {
     flex-direction: column;
