@@ -29,7 +29,7 @@ body {
   font-weight: bolder;
 }
 
-.menu-btn {
+#menu-btn {
   background: none;
   border: none;
   color: aliceblue;
