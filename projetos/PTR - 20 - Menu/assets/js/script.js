@@ -1,5 +1,4 @@
-let btn = document.querySelector(".menu-btn");
-let imgMenu = document.querySelector("i");
+let btn = document.querySelector("#menu-btn");
 let nav = document.querySelector(".nav");
 
 btn.addEventListener("click", () => {
