@@ -104,7 +104,7 @@ body {
 }
 
 @media (max-width: 768px) {
-    .menu-btn {
+    #menu-btn {
         display: block;
     }
   .nav {
