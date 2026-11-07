@@ -2,9 +2,5 @@ let btn = document.querySelector("#menu-btn");
 let nav = document.querySelector(".nav");
 
 btn.addEventListener("click", () => {
-  if (imgMenu.classList.contains("bi bi-list") === true) {
-    imgMenu.classList.remove("bi bi-list");
-  } else {
-    imgMenu.classList.add("bi bi-x-lg");
-  }
+  btn.classList.toggle("bi-x-lg");
 });
