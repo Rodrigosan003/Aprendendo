@@ -3,5 +3,9 @@ let imgMenu = document.querySelector("i");
 let nav = document.querySelector(".nav");
 
 btn.addEventListener(click, () => {
-    if (btn.contains())
-})
+  if (imgMenu.contains("bi bi-list")) {
+    imgMenu.classList.remove("bi bi-list");
+  } else {
+    imgMenu.classList.add("bi bi-x-lg");
+  }
+});
