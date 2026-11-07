@@ -2,5 +2,5 @@ let btn = document.querySelector("#menu-btn");
 let nav = document.querySelector(".nav");
 
 btn.addEventListener("click", () => {
-  btn.classList.toggle("bi-x-lg");
+  btn.classList.remove("bi-list");
 });
