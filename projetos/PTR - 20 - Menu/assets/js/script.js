@@ -5,4 +5,4 @@ menuIcon.addEventListener("click", () => {
   nav.classList.toggle("open");
 });
 
-alert("Oi");
+
