@@ -9,6 +9,9 @@ menuIcon.addEventListener("click", () => {
 
 links.forEach((link) => {
   link.addEventListener("click", () => {
+    link.forEach((l) => {
+      l.addEventListener.remove("active");
+    });
     nav.classList.remove("open");
     menuIcon.classList.remove("bi-x-lg");
   });
