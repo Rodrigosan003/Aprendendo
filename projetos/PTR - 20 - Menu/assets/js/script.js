@@ -7,12 +7,8 @@ menuIcon.addEventListener("click", () => {
   nav.classList.toggle("open");
 });
 
-function fecharMenu() {
-  nav = false;
-}
-
 links.forEach((link) => {
   link.addEventListener("click", () => {
-    fecharMenu();
+    nav.classList.remove("open");
   });
 });
