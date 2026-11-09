@@ -12,10 +12,4 @@ links.forEach((link) => {
     nav.classList.remove("open");
     menuIcon.classList.remove("bi-x-lg");
     link.classList.remove("active");
-    link.forEach((a) => {
-      a.addEventListener("click", () => {
-        a.classList.add("active");
-      });
-    });
-  });
 });
