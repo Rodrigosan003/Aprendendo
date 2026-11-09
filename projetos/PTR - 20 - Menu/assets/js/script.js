@@ -7,13 +7,6 @@ menuIcon.addEventListener("click", () => {
   nav.classList.toggle("open");
 });
 
-links.addEventListener("click", () => {
-  links.forEach((rm) => {
-    rm.classList.remove("active");
-  });
-  links.classList.add("active");
-});
-
 links.forEach((link) => {
   link.addEventListener("click", () => {
     nav.classList.remove("open");
