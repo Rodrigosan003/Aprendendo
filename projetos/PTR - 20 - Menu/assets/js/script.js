@@ -11,6 +11,6 @@ links.forEach((link) => {
   link.addEventListener("click", () => {
     nav.classList.remove("open");
     menuIcon.classList.remove("bi-x-lg");
-    links.classList.add("active");
+    link.classList.toggle("active");
   });
 });
