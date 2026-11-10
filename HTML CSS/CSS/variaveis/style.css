@@ -37,6 +37,7 @@ body {
   width: var(--width);
   background: var(--red);
   border-radius: var(--border-radios);
+  margin: var(--margin);
 }
 
 button {
