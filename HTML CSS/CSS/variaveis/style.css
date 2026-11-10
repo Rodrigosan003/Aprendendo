@@ -11,4 +11,9 @@
   --green: green;
   --black: black;
   --orange: orange;
+
+  /* Espaçamentos */
+  --font-size: 30px;
+  --margin: 10px;
+  --padding: 10px;
 }
