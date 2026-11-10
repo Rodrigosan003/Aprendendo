@@ -25,4 +25,5 @@
   height: var(--height);
   width: var(--width);
   background: var(--red);
+  border-radius: var(--border-radios);
 }
