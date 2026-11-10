@@ -38,3 +38,7 @@ body {
   background: var(--red);
   border-radius: var(--border-radios);
 }
+
+.darck {
+  background: var(--black);
+}
