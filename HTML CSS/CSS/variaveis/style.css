@@ -23,6 +23,7 @@
 
 body {
   background: var(--white);
+  height: 100vh;
 }
 
 .cards {
