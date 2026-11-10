@@ -20,3 +20,9 @@
   --width: 150px;
   --border-radios: 15px;
 }
+
+.cards {
+  height: var(--height);
+  width: var(--width);
+  background: var(--red);
+}
