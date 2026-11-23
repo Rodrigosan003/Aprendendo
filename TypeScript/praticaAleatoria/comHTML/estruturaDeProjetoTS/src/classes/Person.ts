@@ -7,3 +7,5 @@ class Person {
     this.age = age;
   }
 }
+
+export default Person;
