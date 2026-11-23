@@ -5,15 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack --mode development -w"
+    "dev": "webpack --mode development -w",
+    "build": "webpack --mode production"
   },
   "keywords": [],
-  "type": "commonjs",
+  "type": "module",
   "devDependencies": {
+    "ts-node": "^10.9.2",
     "typescript": "^7.0.2"
   },
   "dependencies": {
     "ts-loader": "^9.6.2",
+    "typescript": "^5.0.0",
+    "webpack": "^5.0.0",
     "webpack-cli": "^7.3.1"
   }
 }
