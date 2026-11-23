@@ -1,16 +1,11 @@
+import path from "path";
 
-import path from "node:path";
-import { fileURLToPath } from "node:url";
 import webpack from "webpack";
 
-import "webpack-dev-server";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+declare const __dirname: string;
 
 const config: webpack.Configuration = {
   entry: "./src/index.ts",
-
   module: {
     rules: [
       {
@@ -20,11 +15,9 @@ const config: webpack.Configuration = {
       },
     ],
   },
-
   resolve: {
     extensions: [".tsx", ".ts", ".js"],
   },
-
   output: {
     filename: "bundle.js",
     path: path.resolve(__dirname, "dist"),
