@@ -12,6 +12,7 @@
     "typescript": "^7.0.2"
   },
   "dependencies": {
-    "ts-loader": "^9.6.2"
+    "ts-loader": "^9.6.2",
+    "webpack-cli": "^7.3.1"
   }
 }
