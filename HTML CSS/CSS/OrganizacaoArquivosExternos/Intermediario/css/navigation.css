@@ -3,3 +3,7 @@
   width: 100%;
   background: var(--color-primary);
 }
+
+.nav ul {
+  display: flex;
+}
