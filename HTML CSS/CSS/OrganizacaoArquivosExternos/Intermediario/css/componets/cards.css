@@ -2,4 +2,5 @@
   font-family: var(--font-main);
   color: var(--color-background);
   background: var(--color-secondary);
+  padding: 10px 15px;
 }
