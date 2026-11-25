@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: center;
   gap: var(--spacing-medium);
+  margin: var(--spacing-medium) 0;
 }
 
 .card {
