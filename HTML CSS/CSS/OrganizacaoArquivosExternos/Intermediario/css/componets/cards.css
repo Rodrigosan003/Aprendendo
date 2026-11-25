@@ -3,4 +3,5 @@
   color: var(--color-background);
   background: var(--color-secondary);
   padding: 10px 15px;
+  border-radius: var(--border-radius);
 }
