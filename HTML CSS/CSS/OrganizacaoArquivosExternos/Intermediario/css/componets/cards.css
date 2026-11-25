@@ -1,0 +1,5 @@
+.btn {
+  font-family: var(--font-main);
+  color: var(--color-background);
+  background: var(--color-secondary);
+}
