@@ -1,0 +1,8 @@
+:root {
+  --first-background: blue;
+  --second-background: green;
+  --header-height: 80px;
+  --header-widht: 100%;
+  --footer-height: 90px;
+  --footer-widht: 100%;
+}
