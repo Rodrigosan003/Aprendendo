@@ -1,0 +1,5 @@
+.footer {
+  height: var(--footer-height);
+  width: var(--footer-widht);
+  background: var(--first-background);
+}
